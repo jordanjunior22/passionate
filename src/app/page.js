@@ -8,7 +8,7 @@ import ImageRotator from '@/components/ImageRotator';
 import {BsBookmarkCheckFill} from 'react-icons/bs'
 
 function page() {
-  const images = ['/images/image1', '/images/image2.jpg', '/images/image3.jpg']; // Replace with your image filenames
+  const images = ['image1.jpg', 'image2.jpg', 'image3.jpg']; // Replace with your image filenames
   const bgColorList = ['#7496A3', '#6F95BA', '#3A6287'];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
