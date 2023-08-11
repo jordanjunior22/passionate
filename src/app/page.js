@@ -1,95 +1,47 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable react-hooks/rules-of-hooks */
+"use client"
+import { useState, useEffect} from 'react';
+import React from 'react'
+import './page.css'
+import ImageRotator from '@/components/ImageRotator';
+import {BsBookmarkCheckFill} from 'react-icons/bs'
 
-export default function Home() {
+function page() {
+  const images = ['./image1.jpg', './image2.jpg', './image3.jpg']; // Replace with your image filenames
+  const bgColorList = ['#7496A3', '#6F95BA', '#3A6287'];
+
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const currentBgColor = bgColorList[currentImageIndex];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 10000); // 60 seconds in milliseconds
+
+    return () => clearInterval(interval);   
+  }, []);
+
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <section>
+      <div className='header' style={{ backgroundColor: currentBgColor }}>
+        <div className='header-info'>
+          <p style={{backgroundColor:'#724675', opacity:0.8}}>Renew Your Freedom at</p>
+          <h2>Passionate Center & Homes Healthcare Services</h2>
+          <h3>A Haven for Mental Health Recovery</h3>
+          <p>Passionate Center & Homes Healthcare Services provides an 
+            opportunity for individuals dealing with mental health struggles 
+            to find solace,
+            recover, and reclaim their sense of independence.</p>
+          <button className='email-us'>Book An Appointment <BsBookmarkCheckFill className='book-icon'/></button>
+        </div>
+        <div className='header-image'>
+            <ImageRotator images={images}/>
         </div>
       </div>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    </section>
   )
 }
+
+export default page

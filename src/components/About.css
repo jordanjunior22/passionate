@@ -1,0 +1,151 @@
+.about-us{
+    background-color: #f8f8f8;
+    padding: 4em;
+
+}
+.about-us h3{
+    font-size: 2rem;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.about-us-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+.about-us-content p{
+    width: 50%;
+    opacity: 0.7;
+}
+.about-us-content ul{
+    width: 30%;
+    box-shadow: 0 10px 15px -3px rgb(46 41 51 / 8%), 0 4px 6px -2px rgb(71 63 79 / 50%);
+    background-color: white;
+}
+.about-us-content ul li{
+    list-style: none;
+    color: black;
+    margin: 0.5em;
+    font-size: 0.8rem;
+    font-style: italic;
+    font-weight: 300;
+    opacity: 0.7;
+}
+.problems{
+    background-color: #0076BA;
+    color: white;
+    font-weight: 800;
+    padding: 0.5em;
+}
+.how{
+    padding: 4em 4em 0 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.how h4{
+    text-align: center;
+    opacity: 0.8;
+    font-size: 1rem;
+
+}
+#apply-opacity{
+    opacity: 0.5;
+}
+.how p{
+    text-align: center;
+    font-size: 0.8rem;
+}
+.how-info{
+    display: flex;
+    margin: 2em 2em 0 2em;
+    justify-content: center;
+    width: 60%;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.how-right{
+    border: 1px solid #76C63E;
+    position: relative;
+    width: 40%;
+    padding: 1em;
+    flex: 2;
+    transition: border 1s ease-in-out;
+
+}
+.how-right p{
+text-align: left;
+}
+.how-images{
+    font-size: 2rem;
+}
+.how-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #76C63E;
+    color: white;
+    padding: 0.5em;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 1s ease-in-out;
+}
+.read-more{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 1em;
+    border: none;
+    background-color: #f8f8f8;
+    color: white;
+    opacity: 1;
+    visibility: hidden;
+    transition: background-color 1s ease-in-out;
+}
+.how-info:hover .how-left{
+    background-color: #0076BA;
+}
+.how-info:hover .read-more{
+    visibility: visible;
+    background-color: #0076BA;
+
+}
+.how-info:hover .how-right{
+    border: 1px solid #0076BA;
+}
+.how-info:hover{
+    box-shadow: 0 10px 15px -3px rgb(46 41 51 / 8%), 0 4px 6px -2px rgb(71 63 79 / 50%);
+    transform: scale(1.2);    
+}
+
+@media (max-width: 425px) {
+    .about-us-content{
+        flex-direction: column;
+    }
+    .about-us-content p{
+        width: 100%;
+    }
+    .about-us-content ul{
+        width: 100%;
+        margin-top: 2em;
+    }
+    .about-us h3{
+        text-align: left;
+    }
+    .how-info{
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .how-right{
+        width: 100%;
+
+    }
+}
