@@ -6,6 +6,7 @@ import About from '@/components/About'
 import SignUp from '@/components/SignUp'
 import './global.css'
 import Nav from "@/components/nav"
+import Socials from '@/components/Socials'
 export default function RootLayout({ children }) {
  return (
     <html lang="en">
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
         {children}
         <About/>
         <SignUp/>
+        <Socials/>
         </body>
     </html>
   )

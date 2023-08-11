@@ -38,8 +38,8 @@ function About() {
         </div>
 
         <div className='how'>
-          <h4> How We Can Help </h4>
-          <p id='apply-opacity'>For those facing the challenges of mental illness, Hopewell House is a place to call home.</p>
+          <h4 className='remove-padding'> How We Can Help </h4>
+          <p id='apply-opacity' className='remove-padding'>For those facing the challenges of mental illness, Hopewell House is a place to call home.</p>
           
           <div className='boxes'>
             <div className='how-info '> 

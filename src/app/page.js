@@ -26,7 +26,7 @@ function page() {
     <section>
       <div className='header' style={{ backgroundColor: currentBgColor }}>
         <div className='header-info'>
-          <p style={{backgroundColor:'#724675', opacity:0.8}}>Renew Your Freedom at</p>
+          <p style={{backgroundColor:'#000000', opacity:0.8}}>Renew Your Freedom at</p>
           <h2>Passionate Center & Homes Healthcare Services</h2>
           <h3>A Haven for Mental Health Recovery</h3>
           <p>Passionate Center & Homes Healthcare Services provides an 
