@@ -21,13 +21,13 @@ const ImageRotator = ({ images }) => {
       {images.map((image, index) => (
         <img
           key={index}
-          src={`/images/${image}`}
+          src={`./images/${image}`}
           alt={`Image ${index + 1}`}
           className={`image ${index === currentImageIndex ? "visible" : ""}`}
         />
       ))}
       <style jsx>{`
-        .image-rotator {
+        .image-rotator {   
           width: 100%;
           height: 300px; /* Set your desired height */
           overflow: hidden;
