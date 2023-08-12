@@ -11,35 +11,32 @@
     align-items: center;
     justify-content: center;
     margin-top: 2em;
+    padding: 0 8em 0 8em;
+
 }
 .sign-up input{
-    width: 60%;
+    flex: 3;
     padding: 1em;
     border: none;
     outline: none;
     
 } 
 .sign-up button{
-    width: 10%;
+    flex: 1;
     padding: 1em;
     border: none;
     background-color: #0076BA;
     color: white;
     cursor: pointer;
 }
+
 @media (max-width: 425px) {
     .sign-up form{
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    .sign-up input{
-        width: 100%;
-
-    }
     .sign-up button{
         margin-top: 1em;
-        width: 100%;
-
     }
 }

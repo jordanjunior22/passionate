@@ -20,11 +20,11 @@
 }
 .about-us-content ul{
     width: 30%;
-    box-shadow: 0 10px 15px -3px rgb(46 41 51 / 8%), 0 4px 6px -2px rgb(71 63 79 / 50%);
+    box-shadow: 0 10px 15px -3px rgb(46 41 51 / 8%), 0 4px 6px -2px rgb(71 63 79 / 20%);
     background-color: white;
+
 }
 .about-us-content ul li{
-    
     list-style: none;
     color: black;
     margin: 0.5em;
@@ -34,7 +34,7 @@
     opacity: 0.7;
 }
 .problems{
-    background-color: #000000be;
+    background-color: #000000;
     color: white;
     font-weight: 800;
     padding: 0.5em;
@@ -124,6 +124,9 @@ text-align: left;
 .how-info:hover{
     box-shadow: 0 10px 15px -3px rgb(46 41 51 / 8%), 0 4px 6px -2px rgb(71 63 79 / 50%);
     transform: scale(1.2);    
+}
+@media (max-width: 760px) {
+
 }
 
 @media (max-width: 425px) {
