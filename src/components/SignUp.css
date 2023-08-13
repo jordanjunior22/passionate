@@ -3,7 +3,7 @@
     color: white;
 }
 .sign-up{
-    padding: 2em;
+    padding: 4em;
     background-color: #000000;
 }
 .sign-up form{
@@ -28,8 +28,11 @@
     background-color: #0076BA;
     color: white;
     cursor: pointer;
+    transition: background-color 1s ease-in-out;
 }
-
+.sign-up button:hover{
+    background-color: #76C63E;
+}
 @media (max-width: 425px) {
     .sign-up form{
         flex-direction: column;
