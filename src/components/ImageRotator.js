@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 const ImageRotator = ({ images }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [prevImageIndex, setPrevImageIndex] = useState(images.length - 1);
+  const [imagesLoaded, setImagesLoaded] = useState(false); // Track if images are preloaded
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -16,9 +17,26 @@ const ImageRotator = ({ images }) => {
     return () => clearInterval(interval);
   }, [images]);
 
+  useEffect(() => {
+    const preloadImages = async () => {
+      await Promise.all(images.map((image) => {
+        return new Promise((resolve, reject) => {
+          const img = new Image();
+          img.src = `./images/${image}`;
+          img.onload = resolve;
+          img.onerror = reject;
+        });
+      }));
+
+      setImagesLoaded(true);
+    };
+
+    preloadImages();
+  }, []); // Run once when the component mounts
+
   return (
     <div className="image-rotator">
-      {images.map((image, index) => (
+      {imagesLoaded && images.map((image, index) => (
         <img
           key={index}
           src={`./images/${image}`}
@@ -27,7 +45,7 @@ const ImageRotator = ({ images }) => {
         />
       ))}
       <style jsx>{`
-        .image-rotator {   
+        .image-rotator {
           width: 100%;
           height: 300px; /* Set your desired height */
           overflow: hidden;
