@@ -9,7 +9,7 @@ function ContactForm() {
                     <p>Name</p>
                     <input type='text' placeholder='Eg. John Wick' required/>
                 </div>
-
+  
                 <div className='form-fields'>
                     <p>Phone</p>
                     <input type='text' placeholder='Eg. +1 234 567 8900' required/>

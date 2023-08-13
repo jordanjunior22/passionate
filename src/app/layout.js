@@ -8,6 +8,7 @@ import ContactForm from '@/components/ContactForm'
 import './global.css'
 import Nav from "@/components/nav"
 import Socials from '@/components/Socials'
+import Footer from '@/components/Footer'
 export default function RootLayout({ children }) {
  return (
     <html lang="en">
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
         <SignUp/>
         <Socials/>
         <ContactForm/>
+        <Footer/>
         </body>
     </html>
   )
