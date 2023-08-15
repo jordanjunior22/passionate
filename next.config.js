@@ -1,11 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  images: {
-      unoptimized: true,
-  },
-  output: "export",
-  
+// next.config.js
+const isProd = process.env.NODE_ENV === 'production';
 
+module.exports = {
+  basePath: isProd ? '/passionate' : '',
 };
-  
-module.exports = nextConfig;
