@@ -1,13 +1,12 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-/* eslint-disable react-hooks/rules-of-hooks */
 "use client"
 import { useState, useEffect} from 'react';
 import React from 'react'
-import './page.css'
+import './home.css'
 import ImageRotator from '@/components/ImageRotator';
 import {BsBookmarkCheckFill} from 'react-icons/bs'
 
-function page() {
+function Home() {
   const images = ['image1.jpg', 'image2.jpg', 'image3.jpg']; // Replace with your image filenames
   const bgColorList = ['#7496A3', '#6F95BA', '#3A6287'];
 
@@ -39,9 +38,9 @@ function page() {
             <ImageRotator images={images}/>
         </div>
       </div>
-
+      
     </section>
   )
 }
 
-export default page
+export default Home

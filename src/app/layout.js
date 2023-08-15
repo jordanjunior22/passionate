@@ -5,7 +5,7 @@ export const metadata = {
 import About from '@/components/About'
 import SignUp from '@/components/SignUp'
 import ContactForm from '@/components/ContactForm'
-import '../global.css'    
+import './global.css'    
 import Nav from "@/components/nav"
 import Socials from '@/components/Socials'
 import Footer from '@/components/Footer'
@@ -16,12 +16,8 @@ export default function RootLayout({ children }) {
       <body>
         <Nav/>
         {children}
-        <About/>
-        <SignUp/>
-        <Socials/>
-        <ContactForm />
         <Footer/>
-        </body>
+        </body> 
     </html>
   )
 }

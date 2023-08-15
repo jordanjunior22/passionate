@@ -43,7 +43,7 @@ function Nav() {
             <img src='/images/logo.png' alt="logo" className='logo'/>
 
             <ul className='bottom-navbar-links'>
-                <li><Link href="/home" className='links'>Home</Link></li>
+                <li><Link href="/" className='links'>Home</Link></li>
                 <li className='links with-submenu'>About
                     <ul className='submenu'>
                         <li><Link href="/about/gallery" className='sub-links'>Gallery</Link></li>
@@ -51,7 +51,7 @@ function Nav() {
                     </ul>
                 </li>
                 <li><Link href='/programs' className='links'>Programs</Link></li>
-                <li><Link href='/home#contact-id' className='links'>Contact</Link></li>
+                <li><Link href='/#contact-id' className='links'>Contact</Link></li>
                 <li><Link href='/donate' className='links donate'>Donate</Link></li>
                 
             </ul>
