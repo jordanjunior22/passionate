@@ -13,19 +13,19 @@ function page() {
 
             <div className='team-image'>
                 <div className='image-container'>
-                    <img src='/images/alina.jpg' alt='alina'/>
+                    <img src='./images/alina.jpg' alt='alina'/>
                     <h4>Alina Moray</h4>
                     <p className='add-opacity'>Coordinator</p>
                 </div>
 
                 <div className='image-container'>
-                    <img src='/images/joseph.jpg' alt='joseph'/>
+                    <img src='./images/joseph.jpg' alt='joseph'/>
                     <h4>Henry Joseph</h4>
                     <p className='add-opacity'>Executive Director</p>
                 </div>
 
                 <div className='image-container'>
-                    <img src='/images/mary.jpg' alt='mary'/>
+                    <img src='./images/mary.jpg' alt='mary'/>
                     <h4>Mary Matilda</h4>
                     <p className='add-opacity'>Program Director</p>
                 </div>
