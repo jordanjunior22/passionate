@@ -1,0 +1,81 @@
+.header{
+  display: flex;
+  padding: 2em;
+  justify-content: space-between;
+  transition: background-color 1s ease-in-out;
+}
+.header-info{
+    width: 50%;
+    
+}
+.header-image{
+    width: 40%;
+    box-shadow: 0 10px 15px -3px rgb(46 41 51 / 8%), 0 4px 6px -2px rgb(71 63 79 / 50%);
+
+}
+.header-info h2{
+    font-size: 2rem;
+    color:white;
+    opacity: 1;
+}
+.header-info h3{
+    
+
+    /** TEXT GRADIENT */ color: #ffffff; background-image: -webkit-linear-gradient(315deg, #ffffff 0%, #dbaa8d 100%, #774b7a 100%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
+          
+                  
+        
+    font-style: italic;
+}
+.header-info p{
+    font-size: 0.9rem;
+    color: white;
+    opacity: 0.5;
+}
+.header-info p, .header-info h2, .header-info h3{
+    padding-top: 0.2em;
+}
+.email-us{
+    border: none;
+    padding: 0.8em;
+    margin-top: 2em;
+    font-size: 0.8rem;
+    font-weight: 500;
+    background-color: #ffffff;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.book-icon{
+    margin-left: 0; /* Initial margin-left value */
+    transition: margin-left 0.5s ease; 
+    opacity:0.5;
+    visibility: hidden;
+}
+.email-us:hover .book-icon {
+    color: #76C63E;
+    margin-left: 1em;
+    visibility: visible;
+}
+.email-us:hover{
+    box-shadow: 0 10px 15px -3px rgb(46 41 51 / 8%), 0 4px 6px -2px rgb(71 63 79 / 30%);
+    color: #76C63E;
+}
+
+@media (max-width: 425px) {
+    .header-image{
+        display: none;
+    }
+    .header-info{
+        width: 100%;
+    }
+}
+@media (max-width: 1006px) {
+    .header-image{
+        max-height:300px;
+    }
+}

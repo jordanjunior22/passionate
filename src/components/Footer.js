@@ -1,7 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import './footer.css'
 import Image from 'next/image';
-import myImage from '../app/assets/logo.png';
 import {TfiEmail} from 'react-icons/tfi'
 import {BsFacebook} from 'react-icons/bs'
 import {BsWhatsapp} from 'react-icons/bs'
@@ -36,7 +36,7 @@ function Footer() {
                 </div>
 
                 <div className='logo-and-social'>
-                     <Image src={myImage} alt="logo" className='logo'/>
+                     <img src='/images/logo.png' alt="logo" className='logo'/>
                      <div className='socials'>
                         <button> <TfiEmail/> </button>
                         <button> <BsFacebook/> </button>

@@ -1,0 +1,19 @@
+.gallery{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+    grid-gap: 1em;
+    padding: 2em;
+
+}
+.gallery img{
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 425px) {
+    .gallery{
+        display: flex;
+        flex-direction: column;
+    }
+}

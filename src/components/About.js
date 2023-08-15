@@ -27,6 +27,7 @@ function About() {
             <div className='problems'>
               <TfiWrite/> We Offer Services That can help individuals daignosed with the followings
             </div>
+            
             <li>Schizophrenia</li>
             <li>Schizo-affective disorders</li>
             <li>Depression</li>

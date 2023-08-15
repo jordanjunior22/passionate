@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+/* esant-disable @next/next/no-img-element */
 // `app/page.js` is the UI for the `/` URL
 "use client"
 import './nav.css'
@@ -5,11 +7,9 @@ import {BiSolidPhoneCall} from 'react-icons/bi'
 import {RxHamburgerMenu} from 'react-icons/rx'
 import {MdEmail} from 'react-icons/md'
 import Image from 'next/image';
-import myImage from '../app/assets/logo.png';
-import Link from 'next/link';
-import { React , useRef, useState,useEffect } from 'react';
+import { React , useRef, useState,    useEffect } from 'react';
 import {GrClose} from 'react-icons/gr';
-import dynamic from "next/dynamic";
+import Link from 'next/link'
 
 
 function Nav() {
@@ -26,10 +26,11 @@ function Nav() {
         }
       };
       document.addEventListener('mousedown', handler);
-      return () => {
+        return () => {
         // Cleanup the event listener
         document.removeEventListener('mousedown', handler);
-      };
+        };
+
     }, [navbarOpen]);
 
     return (
@@ -39,60 +40,45 @@ function Nav() {
             <p className='animate-text'> <MdEmail /> passionate@gmail.com</p>
         </div>
         <div className='bottom-navbar blurred-navbar'>
-            <Image src={myImage} alt="logo" className='logo'/>
+            <img src='/images/logo.png' alt="logo" className='logo'/>
 
-            <div className='bottom-navbar-links'>
-                <Link href='/' className='links'>
-                    Home
-                </Link>
-                <Link href='/about' className='links with-submenu'>
-                    About
-                    <div className='submenu'>
-                        
-                        <Link href='/about/galery' className='sub-links'>Galery</Link> 
-                        <Link href='/about/team' className='sub-links'>Team</Link>
-                    </div>
-                </Link>
-                <Link href='/' className='links'>
-                    Programs
-                </Link>
-                <Link href='/' className='links'>
-                    Contact
-                </Link>
-                <Link href='/' className='links donate'>
-                    Donate
-                </Link>
-            </div>
+            <ul className='bottom-navbar-links'>
+                <li><Link href="/home" className='links'>Home</Link></li>
+                <li className='links with-submenu'>About
+                    <ul className='submenu'>
+                        <li><Link href="/about/gallery" className='sub-links'>Gallery</Link></li>
+                        <li><Link href="/about/team" className='sub-links'>Team</Link></li>
+                    </ul>
+                </li>
+                <li><Link href='/programs' className='links'>Programs</Link></li>
+                <li><Link href='/home#contact-id' className='links'>Contact</Link></li>
+                <li><Link href='/donate' className='links donate'>Donate</Link></li>
+                
+            </ul>
             <button className="toggle" onClick={() => setNavbarOpen((prev) => !prev)}>
                 {navbarOpen ? <GrClose className='menu'/> :  <RxHamburgerMenu className='menu'/>}
             </button>            
 
         </div>
-        <div ref={ref} className={`side-nav${navbarOpen ? ' show-menu' : ''}`}>
-                <Link href='/' className='links' onClick={() => setNavbarOpen(false)}>
-                    Home
-                </Link>
-                <Link href='/' className='links with-submenu'>
-                    About
-                    <div className='submenu'>
-                        
-                        <Link href='/' className='sub-links'  onClick={() => setNavbarOpen(false)}>Gallery</Link> 
-                        <Link href='/' className='sub-links'  onClick={() => setNavbarOpen(false)}>Team</Link>
-                    </div>
-                </Link>
-                <Link href='/' className='links'  onClick={() => setNavbarOpen(false)}>
-                    Programs
-                </Link>
-                <Link href='/' className='links'  onClick={() => setNavbarOpen(false)}>
-                    Contact
-                </Link>
-                <Link href='/' className='links donate'  onClick={() => setNavbarOpen(false)}>
-                    Donate
-                </Link>
-        </div>
-        
+
+       
+        <ul ref={ref} className={`side-nav${navbarOpen ? ' show-menu' : ''}`}>
+                <li><Link href="/home" className='links' onClick={() => setNavbarOpen(false)}>Home</Link></li>
+                <li className='links with-submenu'>About
+                    <ul className='submenu'>
+                        <li><Link href="./gallery" className='sub-links' onClick={() => setNavbarOpen(false)}>Gallery</Link></li>
+                        <li><Link href="./team" className='sub-links' onClick={() => setNavbarOpen(false)}>Team</Link></li>
+                    </ul>
+                </li>
+                <li><Link href='/programs' className='links' onClick={() => setNavbarOpen(false)}>Programs</Link></li>
+                <li><Link href='/contact' className='links' onClick={() => setNavbarOpen(false)}>Contact</Link></li>
+                <li><Link href='/donate' className='links donate' onClick={() => setNavbarOpen(false)}>Donate</Link></li>
+                
+        </ul>
+       
+
       </section>
     );
   }
   
-  export default dynamic (() => Promise.resolve(Nav), {ssr: false})
+  export default Nav;

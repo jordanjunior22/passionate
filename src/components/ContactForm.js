@@ -2,7 +2,7 @@ import React from 'react'
 import './contactform.css'
 function ContactForm() {
   return (
-    <section>
+    <section id='contact-id'>
         <form className='contact-container'>    
             <div className='top-form'>
                 <div className='form-fields'>
