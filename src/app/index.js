@@ -7,11 +7,9 @@ const IndexPage = () => {
     const router = useRouter();
 
     useEffect(() => {
-        // Redirect to the home page when the index page is loaded
-        router.push('/home');
+      // Redirect logic
+      router.push('/home');
     }, []);
-
-    return null;
 };
 
 export default IndexPage;
