@@ -1,15 +1,8 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 // pages/index.js
-import { useEffect } from 'react';
-import { useRouter } from 'next/router';
+import React from 'react';
 
-const IndexPage = () => {
-    const router = useRouter();
+function Home() {
+  return <div>This is the home page</div>;
+}
 
-    useEffect(() => {
-      // Redirect logic
-      router.push('/home');
-    }, []);
-};
-
-export default IndexPage;
+export default Home;
