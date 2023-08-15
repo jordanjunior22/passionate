@@ -7,9 +7,9 @@ function page() {
     
         <section>
           <div className='gallery'>
-            <img src='./images/image1.jpg' alt='image1'/>
-            <img src='./images/image2.jpg' alt='image1'/>
-            <img src='./images/image3.jpg' alt='image1'/>
+            <img src='../images/image1.jpg' alt='image1'/>
+            <img src='../images/image2.jpg' alt='image1'/>
+            <img src='../images/image3.jpg' alt='image1'/>
 
           </div>
         </section>
