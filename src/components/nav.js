@@ -58,7 +58,7 @@ function Nav() {
             <button className="toggle" onClick={() => setNavbarOpen((prev) => !prev)}>
                 {navbarOpen ? <GrClose className='menu'/> :  <RxHamburgerMenu className='menu'/>}
             </button>            
-
+ 
         </div>
 
        
