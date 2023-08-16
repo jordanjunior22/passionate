@@ -11,7 +11,7 @@ function page() {
     <div>
         <div  className='add-padding'>
         <div className='residencial flex-reverse'>    
-            <img src='../images/image1.jpg' alt='image1' className='margintop'/>
+            <img src='./images/image1.jpg' alt='image1' className='margintop'/>
             <div className='heading'>
                 <p className='first-text set-opacity'>LEARN MORE</p>
                 <h2 className='h2-tags'>What We Do & What We're About</h2>
