@@ -3,6 +3,7 @@
 import { useState, useEffect} from 'react';
 import React from 'react'
 import './home.css'
+import Link from 'next/link';
 import ImageRotator from '@/components/ImageRotator';
 import {BsBookmarkCheckFill} from 'react-icons/bs'
 
@@ -32,7 +33,7 @@ function Home() {
             opportunity for individuals dealing with mental health struggles 
             to find solace,
             recover, and reclaim their sense of independence.</p>
-          <button className='email-us'>Book An Appointment <BsBookmarkCheckFill className='book-icon'/></button>
+            <Link href='/#contact-id' className='link-deco'><button className='email-us'>Book An Appointment <BsBookmarkCheckFill className='book-icon'/></button></Link>
         </div>
         <div className='header-image'>
             <ImageRotator images={images}/>

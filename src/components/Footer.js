@@ -22,21 +22,21 @@ function Footer() {
                 <div className='footer-container-top-items'>
                     <h3>Our Services</h3>
                     <Link  href='/' className='Link'>Home</Link>
-                    <Link  href='/' className='Link'>About</Link>
-                    <Link  href='/' className='Link'>Programs</Link>
-                    <Link  href='/' className='Link'>Contact</Link>
-                    <Link  href='/' className='Link'>Donate</Link>
+                    <Link  href='/#about' className='Link'>About</Link>
+                    <Link  href='/programs' className='Link'>Programs</Link>
+                    <Link  href='/#contact' className='Link'>Contact</Link>
+                    <Link  href='/donate' className='Link'>Donate</Link>
                 </div>
 
                 <div className='footer-container-top-items'>
                     <h3>Quick Links</h3>
-                    <Link  href='/' className='Link'>Galley</Link>
-                    <Link  href='/' className='Link'>Meet The Team</Link>
-                    <Link  href='/' className='Link'>FAQS</Link>
+                    <Link  href='/about/gallery' className='Link'>Galley</Link>
+                    <Link  href='/about/team' className='Link'>Meet The Team</Link>
+                    <Link  href='/faqs' className='Link'>FAQS</Link>
                 </div>
 
                 <div className='logo-and-social'>
-                     <img src='/images/logo.png' alt="logo" className='logo'/>
+                    <Link href='/'><img src='../images/logo.png' alt="logo" className='logo'/></Link>
                      <div className='socials'>
                         <button> <TfiEmail/> </button>
                         <button> <BsFacebook/> </button>

@@ -35,6 +35,9 @@
   .header-info p, .header-info h2, .header-info h3{
       padding-top: 0.2em;
   }
+  .link-deco{
+    text-decoration: none;
+  }
   .email-us{
       border: none;
       padding: 0.8em;
@@ -48,7 +51,6 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      
   }
   .book-icon{
       margin-left: 0; /* Initial margin-left value */
@@ -60,6 +62,7 @@
       color: #76C63E;
       margin-left: 1em;
       visibility: visible;
+      
   }
   .email-us:hover{
       box-shadow: 0 10px 15px -3px rgb(46 41 51 / 8%), 0 4px 6px -2px rgb(71 63 79 / 30%);

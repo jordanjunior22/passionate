@@ -4,6 +4,8 @@ import './About.css'
 import {TfiWrite} from 'react-icons/tfi'
 import {ImHome} from 'react-icons/im'
 import {PiUsersThreeFill} from 'react-icons/pi'
+import Link from 'next/link'
+
 function About() {
   return (
     <section>
@@ -43,37 +45,46 @@ function About() {
           <p id='apply-opacity' className='remove-padding'>For those facing the challenges of mental illness, Hopewell House is a place to call home.</p>
           
           <div className='boxes'>
-            <div className='how-info '> 
-              <div className='how-left'>
-                <ImHome className='how-images'/>
-                <h5>Residential Programs</h5>
+            
+              <div className='how-info '> 
+                <div className='how-left'>
+                  <ImHome className='how-images'/>
+                  <h5>Residential Programs</h5>
+                </div>
+          
+                <div className='how-right'>
+                <p id='apply-opacity'>
+                Experience Hopewell's most comprehensive level of support at our 
+                Residential Support Program. Residents live in a home on the farm with full access 
+                to our service offerings while leading a self-determining lifestyle.
+                </p>
+                  <Link href='/programs/residencial'>
+                    <button className='read-more' >Read More</button>
+                  </Link>                
+                </div>
               </div>
+           
+           
+              <div className='how-info '> 
+                <div className='how-left'>
+                  <PiUsersThreeFill className='how-images'/>
+                  <h5>Community Support</h5>
+                </div>
         
-              <div className='how-right'>
-              <p id='apply-opacity'>
-              Experience Hopewell's most comprehensive level of support at our 
-              Residential Support Program. Residents live in a home on the farm with full access 
-              to our service offerings while leading a self-determining lifestyle.
-              </p>
-              <button className='read-more' >Read More</button>
-              </div>
-            </div>
-            <div className='how-info '> 
-            <div className='how-left'>
-              <PiUsersThreeFill className='how-images'/>
-              <h5>Community Support</h5>
-            </div>
-      
-            <div className='how-right'>
-            <p id='apply-opacity'>
-            Hopewell's Community Support Program helps our clients transition 
-            back into the community through a collaborative coaching process. 
-            A mutually agreed upon care plan guides a resident as they utilize the tools they have learned in 
-            real time to live outside of our farm.
-            </p>
-            <button className='read-more' >Read More</button>
-            </div>
-          </div>
+                <div className='how-right'>
+                  <p id='apply-opacity'>
+                  Hopewell's Community Support Program helps our clients transition 
+                  back into the community through a collaborative coaching process. 
+                  A mutually agreed upon care plan guides a resident as they utilize the tools they have learned in 
+                  real time to live outside of our farm.
+                  </p>
+                  <Link href='/programs/community'>
+                    <button className='read-more' >Read More</button>
+                  </Link>
+                </div>
+
+              </div>            
+
           </div>
           
 

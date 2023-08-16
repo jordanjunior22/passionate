@@ -1,6 +1,6 @@
 .about-us{
     background-color: #f8f8f8;
-    padding: 4em;
+    padding: 2em;
 
 }
 .about-us h3{
@@ -35,13 +35,13 @@
 }
 .problems{
     background-color: #000000;
-    color: white;
     font-weight: 800;
     padding: 0.5em;
+    color: white;
 }
 .how{
-    padding: 4em 4em 0 4em;
-    display: flex;
+    padding: 4em 2em 0 2em;
+    display: flex;   
     flex-direction: column;
     align-items: center;
 }
@@ -66,7 +66,7 @@
 }
 .how-info{
     display: flex;
-    margin: 2em 2em 0 2em;
+    margin: 2em 2em 1em 2em;
     justify-content: center;
     width: 60%;
     transition: 0.5s ease-in-out;
@@ -116,14 +116,14 @@ text-align: left;
 .how-info:hover .read-more{
     visibility: visible;
     background-color: #0076BA;
-
+    cursor: pointer;
 }
 .how-info:hover .how-right{
     border: 1px solid #0076BA;
 }
 .how-info:hover{
     box-shadow: 0 10px 15px -3px rgb(46 41 51 / 8%), 0 4px 6px -2px rgb(71 63 79 / 50%);
-    transform: scale(1.2);    
+    transform: scale(1.1);    
 }
 
 @media (max-width: 425px) {
@@ -132,13 +132,11 @@ text-align: left;
     }
     .about-us-content p{
         width: 100%;
+        text-align: center;
     }
     .about-us-content ul{
         width: 100%;
         margin-top: 2em;
-    }
-    .about-us h3{
-        text-align: left;
     }
     .how-info{
         flex-direction: column;
