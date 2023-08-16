@@ -36,8 +36,8 @@ function Nav() {
     return (
       <section className="navbar">
         <div className='top-navbar'>
-            <p className='animate-text'> <BiSolidPhoneCall /> +1 (234) 456 2345</p>
-            <p className='animate-text'> <MdEmail /> passionate@gmail.com</p>
+            <p className='animate-text'> <BiSolidPhoneCall /> +1 (571) 265 5198</p>
+            <p className='animate-text'> <MdEmail /> pchhservicesllc@gmail.com</p>
         </div>
         <div className='bottom-navbar blurred-navbar'>
           <Link href='/'><img src='./images/logo.png' alt="logo" className='logo'/></Link>

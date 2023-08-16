@@ -14,9 +14,10 @@ function Footer() {
             <div className='footer-container-top'>
                 <div className='footer-container-top-items'>
                     <h3>Contact Us</h3>
-                    <p>+1 234 534 2121</p>
-                    <p>emailus@gmail.com</p>
+                    <p>+1 571 265 5198</p>
+                    <p>pcchservicesllc@gmail.com</p>
                     <p> 123 Freemont Street</p>
+                    <p> Alexandria, VIrginia 22003</p>
                 </div>
 
                 <div className='footer-container-top-items'>
