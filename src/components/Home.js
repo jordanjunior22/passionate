@@ -33,7 +33,7 @@ function Home() {
             opportunity for individuals dealing with mental health struggles 
             to find solace,
             recover, and reclaim their sense of independence.</p>
-            <p>Let's be &quot;A Haven for Mental Health Recovery&quot;...</p>
+            <p>Let&apos;s be &ldquo;A Haven for Mental Health Recovery&rdquo;...</p>
             <Link href='/#contact-id' className='link-deco'><button className='email-us'>Book An Appointment <BsBookmarkCheckFill className='book-icon'/></button></Link>
         </div>
         <div className='header-image'>
