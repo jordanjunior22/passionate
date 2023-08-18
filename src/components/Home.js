@@ -26,13 +26,14 @@ function Home() {
     <section>
       <div className='header' style={{ backgroundColor: currentBgColor }}>
         <div className='header-info'>
-          <p style={{backgroundColor:'#000000', opacity:0.8}}>Renew Your Freedom at</p>
+          <p style={{backgroundColor:'#000000', opacity:0.8, textAlign: "center"}}>Renew Your Freedom At</p>
           <h2>Passionate Center & Homes Healthcare Services</h2>
-          <h3>A Haven for Mental Health Recovery</h3>
+          <h3>Your Mental Wellness, Is Our Passionate Priority</h3>
           <p>Passionate Center & Homes Healthcare Services provides an 
             opportunity for individuals dealing with mental health struggles 
             to find solace,
             recover, and reclaim their sense of independence.</p>
+            <p>Let's be "A Haven for Mental Health Recovery"...</p>
             <Link href='/#contact-id' className='link-deco'><button className='email-us'>Book An Appointment <BsBookmarkCheckFill className='book-icon'/></button></Link>
         </div>
         <div className='header-image'>

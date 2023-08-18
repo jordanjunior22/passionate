@@ -18,7 +18,7 @@ function SignUp() {
   return (
     <section>
       <div className='sign-up'>
-        <h2>Sign Up for Our Newsletter</h2>
+        <h2>Sign Up For Our Mental Health Newsletter</h2>
 
       <form onSubmit={handleSubmit}>
         <input
@@ -29,7 +29,7 @@ function SignUp() {
           onChange={handleEmailChange}
           required
         />
-        <button type="submit">Subscribe</button>
+        <button type="submit">SUBSCRIBE</button>
       </form>
 
       </div>

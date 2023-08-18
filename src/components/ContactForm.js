@@ -7,12 +7,12 @@ function ContactForm() {
             <div className='top-form'>
                 <div className='form-fields'>
                     <p>Name</p>
-                    <input type='text' placeholder='Eg. John Wick' required/>
+                    <input type='text' placeholder='Eg. Dorothea Dix' required/>
                 </div>
   
                 <div className='form-fields'>
                     <p>Phone</p>
-                    <input type='text' placeholder='Eg. +1 234 567 8900' required/>
+                    <input type='text' placeholder='Eg. +1 703 911 1802' required/>
                 </div>
 
                 <div className='form-fields'>

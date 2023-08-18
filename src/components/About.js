@@ -14,9 +14,9 @@ function About() {
 
         <div className='about-us-content'>
           <p>
-          Situated on an historic farm within Northern Virginia, 
+          Situated in the DMV area, in the historic Alexandria area within Northern Virginia, 
           Passionate Center & Homes Healthcare Services stands as a distinctive and nurturing residential 
-          program tailored for adults facing mental illness challenges. Our programs are meticulously 
+          program tailored for adults facing mental health illness and challenges. Our programs are meticulously 
           crafted to offer individuals and their families a closely tailored path towards stability and 
           personal development. We pride ourselves on fostering a supportive community for those who encounter 
           difficulty assimilating into society due to mental health conditions. Our unique approach to mental 
@@ -27,7 +27,7 @@ function About() {
 
           <ul>
             <div className='problems'>
-              <TfiWrite/> We Offer Services That can help individuals daignosed with the followings
+              <TfiWrite/> We Offer Services That can help individuals daignosed with the followings;
             </div>
             
             <li>Schizophrenia</li>
@@ -42,7 +42,7 @@ function About() {
 
         <div className='how'>
           <h4 className='remove-padding'> How We Can Help </h4>
-          <p id='apply-opacity' className='remove-padding'>For those facing the challenges of mental illness, Hopewell House is a place to call home.</p>
+          <p id='apply-opacity' className='remove-padding'>For those facing the challenges of mental illness, Passionate Center & Homes is a place to call home.</p>
           
           <div className='boxes'>
             
@@ -54,8 +54,9 @@ function About() {
           
                 <div className='how-right'>
                 <p id='apply-opacity'>
-                Experience Hopewell's most comprehensive level of support at our 
-                Residential Support Program. Residents live in a home on the farm with full access 
+                Experience Passionate Center & Homes Healthcare Services's most comprehensive level of support at our 
+                Residential Support Program. 
+                Residents live in one of our homes, with full access 
                 to our service offerings while leading a self-determining lifestyle.
                 </p>
                   <Link href='/programs/residencial'>
@@ -73,10 +74,10 @@ function About() {
         
                 <div className='how-right'>
                   <p id='apply-opacity'>
-                  Hopewell's Community Support Program helps our clients transition 
+                  Passionate Center & Homes Healthcare Services's Community Support Program helps our clients transition 
                   back into the community through a collaborative coaching process. 
                   A mutually agreed upon care plan guides a resident as they utilize the tools they have learned in 
-                  real time to live outside of our farm.
+                  real time to live outside of our homes.
                   </p>
                   <Link href='/programs/community'>
                     <button className='read-more' >Read More</button>
