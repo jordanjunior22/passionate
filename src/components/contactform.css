@@ -30,6 +30,8 @@
     padding: 1em;
     outline: none;
     color:black;
+    border-radius: 5px;
+
 }
 .top-form{
     display: flex;
@@ -55,7 +57,7 @@
     outline: none;
     height: 200px;
     padding: 1em;
-
+    border-radius: 5px;
 }
 @media (max-width: 768px) {
     .top-form{
