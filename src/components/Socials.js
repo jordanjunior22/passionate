@@ -1,6 +1,6 @@
 import React from 'react'
 import {TfiEmail} from 'react-icons/tfi'
-import {BsFacebook} from 'react-icons/bs'
+import {BsFacebook, BsTiktok} from 'react-icons/bs'
 import {BsWhatsapp} from 'react-icons/bs'
 import {FaInstagramSquare} from 'react-icons/fa'
 import {AiFillTwitterSquare} from 'react-icons/ai'
@@ -16,7 +16,8 @@ function Socials() {
            <button> <BsFacebook/> Facebook</button>
            <button>< FaInstagramSquare/> Instagram</button>
            <button>< AiFillTwitterSquare/> Twitter</button>
-           <button> <BsWhatsapp/> Phone</button> 
+           <button>< BsTiktok/> Tiktok</button>
+           <button>< BsWhatsapp/> Phone</button> 
            
         </div>
       </div>

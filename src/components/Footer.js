@@ -3,9 +3,10 @@ import React from 'react'
 import './footer.css'
 import Image from 'next/image';
 import {TfiEmail} from 'react-icons/tfi'
-import {BsFacebook} from 'react-icons/bs'
+import {BsFacebook, BsTiktok, BsTwitter} from 'react-icons/bs'
 import {BsWhatsapp} from 'react-icons/bs'
 import Link from 'next/link';
+import { FaInstagram } from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -41,7 +42,12 @@ function Footer() {
                      <div className='socials'>
                         <button> <TfiEmail/> </button>
                         <button> <BsFacebook/> </button>
-                        <button> <BsWhatsapp/> </button> 
+                        <button> <FaInstagram/> </button>
+                     </div>
+                     <div className='socials'>
+                        <button> <BsTwitter/> </button>
+                        <button> <BsTiktok/> </button>
+                        <button> <BsWhatsapp/> </button>
                      </div>
                 </div>
 
