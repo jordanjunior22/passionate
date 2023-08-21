@@ -11,11 +11,11 @@ function page() {
             <div className='heading'>
                 <p className='first-text set-opacity'>STAY WITH US</p>
                 <h2 className='h2-tags'>Residencial Support Programs</h2>
-                <p className='set-opacity'>Experience the difference with Hopewells therapeutic environment.</p>
+                <p className='set-opacity'>Experience the difference with Passionate Center & Homes therapeutic environment.</p>
             </div> 
         </div>
         <div className='details'>
-            <h2 className='h2-tags'>Life At Hopewell House</h2>
+            <h2 className='h2-tags'>Life At Passionate Center & Homes</h2>
             <p className='set-opacity'>Our private, rural-like setting provides an optimal environment for healthy independent 
                 living in our charming residential group homes. Along with support from skilled and caring behavioral 
                 health coaches,each resident is offered a personalized plan to meet their individual needs and goals.</p>
