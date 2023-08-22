@@ -52,7 +52,7 @@ function Nav() {
                 </li>
                 <li className='links with-submenu'><Link href='/programs' className='links'>Programs</Link> 
                     <ul className='submenu'>
-                        <li><Link href="/programs/residencial" className='sub-links' nowrap= 'true'>Residencial Support Programs</Link></li>
+                        <li><Link href="/programs/residencial" className='sub-links'>Residencial Support Programs</Link></li>
                         <li><Link href="/programs/community" className='sub-links'>Community Support</Link></li>
                     </ul>
                 </li>
