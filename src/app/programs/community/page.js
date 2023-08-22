@@ -15,7 +15,7 @@ function page() {
             </div> 
         </div>
         <div className='details'>
-            <h2 className='h2-tags'>We&aposll meet you where you&aposre at</h2>
+            <h2 className='h2-tags'>We&apos;ll meet you where you&apos;re at</h2>
             <p className='set-opacity'>Our Community Support Program helps people move forward in life through a collaborative coaching process in which individuals work 
             with a Mental Health Life Coach in their home to eliminate the barriers that negatively impact their mental health and independence.</p>
         </div>
@@ -39,7 +39,7 @@ function page() {
             <img src='../images/image2.jpg' alt='image2' className='margintop'/>
 
             <div className='heading'>
-                <p className='first-text set-opacity'>WE&aposRE IN THIS TOGETHER</p>
+                <p className='first-text set-opacity'>WE&apos;RE IN THIS TOGETHER</p>
                 <h2 className='h2-tags'>support and education for families</h2>
                 <ul className='set-opacity liststyle'>
                     <li> <GrStatusGoodSmall className='bullet'/> Social groups that help residents understand and deal with particular symptoms and life skills throughout recovery.</li>
