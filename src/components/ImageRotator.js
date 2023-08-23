@@ -47,7 +47,7 @@ const ImageRotator = ({ images }) => {
       <style jsx>{`
         .image-rotator {
           width: 100%;
-          height: 400px; /* Set your desired height */
+          height: 320px; /* Set your desired height */
           overflow: hidden;
           position: relative;
         }
