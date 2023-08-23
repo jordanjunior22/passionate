@@ -50,7 +50,7 @@ function Nav() {
                         <li><Link href="/about/team" className='sub-links'>Meet The Team</Link></li>
                     </ul>
                 </li>
-                <li className='links with-submenu'><Link href='/programs' className='links'>Programs</Link> 
+                <li className='links with-submenu'><Link href='/#programs-id' className='links'>Programs</Link> 
                     <ul className='submenu'>
                         <li><Link href="/programs/residencial" className='sub-links'>Residencial Support Programs</Link></li>
                         <li><Link href="/programs/community" className='sub-links'>Community Support</Link></li>
@@ -70,13 +70,13 @@ function Nav() {
        
         <ul ref={ref} className={`side-nav${navbarOpen ? ' show-menu' : ''}`}>
                 <li><Link href="/" className='links' onClick={() => setNavbarOpen(false)}>Home</Link></li>
-                <li className='links with-submenu'>About
+                <li className='links with-submenu'><Link href='/about' className='links'>About</Link>
                     <ul className='submenu'>
                         <li><Link href="/about/gallery" className='sub-links' onClick={() => setNavbarOpen(false)}>Gallery</Link></li>
                         <li><Link href="/about/team" className='sub-links' onClick={() => setNavbarOpen(false)}>Meet The Team</Link></li>
                     </ul>
                 </li>
-                <li className='links with-submenu'>Programs
+                <li className='links with-submenu'><Link href='/#programs-id' className='links'>Programs</Link>
                     <ul className='submenu'>
                         <li><Link href="/programs/residencial" className='sub-links'>Residencial Support Programs</Link></li>
                         <li><Link href="/programs/community" className='sub-links'>Community Support</Link></li>
