@@ -13,6 +13,7 @@
     margin-top: 1em;    
     cursor: pointer; 
     transition: background-color 1s ease-in-out;
+    border-radius: 8px;
 }
 .contact-container button:hover{
     background-color: #76C63E;
