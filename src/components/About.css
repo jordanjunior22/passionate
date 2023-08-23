@@ -21,7 +21,7 @@
 .about-us-content ul{
     width: 30%;
     box-shadow: 0 10px 15px -3px rgb(46 41 51 / 8%), 0 4px 6px -2px rgb(71 63 79 / 20%);
-    background-color: white;
+    background-color: #f8f8f8;
 
 }
 .about-us-content ul li{
@@ -34,7 +34,7 @@
     opacity: 0.7;
 }
 .problems{
-    background-color: #f8f8f8;
+    background-color: #000000;
     font-weight: 800;
     padding: 0.5em;
     color: white;
