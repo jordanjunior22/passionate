@@ -25,7 +25,7 @@ function Footer() {
                     <h3>Our Services</h3>
                     <Link  href='/' className='Link'>Home</Link>
                     <Link  href='/#about' className='Link'>About</Link>
-                    <Link  href='/programs' className='Link'>Programs</Link>
+                    <Link  href='/#program-id' className='Link'>Programs</Link>
                     <Link  href='/#contact' className='Link'>Contact</Link>
                     <Link  href='/donate' className='Link'>Donate</Link>
                 </div>
