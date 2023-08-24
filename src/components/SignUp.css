@@ -18,6 +18,8 @@
     padding: 1em;
     border: none;
     outline: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
     
 } 
 .sign-up button{
@@ -28,6 +30,8 @@
     color: white;
     cursor: pointer;
     transition: background-color 1s ease-in-out;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 .sign-up button:hover{
     background-color: #76C63E;
@@ -40,5 +44,9 @@
     }
     .sign-up button{
         margin-top: 1em;
+        border-radius: 8px;
+    }
+    .sign-up input{
+        border-radius: 8px;
     }
 }

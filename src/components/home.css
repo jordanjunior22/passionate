@@ -11,7 +11,7 @@
   .header-image{
       width: 40%;
       box-shadow: 0 10px 15px -3px rgb(46 41 51 / 8%), 0 4px 6px -2px rgb(71 63 79 / 50%);
-  
+      height: 300px;
   }
   .header-info h2{
       font-size: 2rem;

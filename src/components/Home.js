@@ -3,6 +3,7 @@
 import { useState, useEffect} from 'react';
 import React from 'react'
 import './home.css'
+import '../animate.css'
 import Link from 'next/link';
 import ImageRotator from '@/components/ImageRotator';
 import {BsBookmarkCheckFill} from 'react-icons/bs'
@@ -26,13 +27,14 @@ function Home() {
     <section>
       <div className='header' style={{ backgroundColor: currentBgColor }}>
         <div className='header-info'>
-          <p style={{backgroundColor:'#000000', opacity:0.8}}>Renew Your Freedom at</p>
-          <h2>Passionate Center & Homes Healthcare Services</h2>
-          <h3>A Haven for Mental Health Recovery</h3>
+          <p style={{backgroundColor:'#000000', opacity:0.8, textAlign: "center", borderTopLeftRadius: '8px'}}>Renew Your Freedom at</p>
+          <h2 className='focus-in-expand '>Passionate Center & Homes Healthcare Services</h2>
+          <h3>Your Mental Wellness, Is Our Passionate Priority</h3>
           <p>Passionate Center & Homes Healthcare Services provides an 
             opportunity for individuals dealing with mental health struggles 
             to find solace,
             recover, and reclaim their sense of independence.</p>
+            <p>Let&apos;s be &ldquo;A Haven for Mental Health Recovery&rdquo;...</p>
             <Link href='/#contact-id' className='link-deco'><button className='email-us'>Book An Appointment <BsBookmarkCheckFill className='book-icon'/></button></Link>
         </div>
         <div className='header-image'>

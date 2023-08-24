@@ -13,6 +13,8 @@
     margin-top: 1em;    
     cursor: pointer; 
     transition: background-color 1s ease-in-out;
+    border-radius: 8px;
+
 }
 .contact-container button:hover{
     background-color: #76C63E;
@@ -30,6 +32,7 @@
     padding: 1em;
     outline: none;
     color:black;
+    border-radius: 8px;
 }
 .top-form{
     display: flex;
@@ -55,7 +58,7 @@
     outline: none;
     height: 200px;
     padding: 1em;
-
+    border-radius: 8px;
 }
 @media (max-width: 768px) {
     .top-form{
