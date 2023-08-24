@@ -14,10 +14,6 @@
     cursor: pointer; 
     transition: background-color 1s ease-in-out;
     border-radius: 8px;
-<<<<<<< HEAD
-
-=======
->>>>>>> f2dcb9668755c8a16bc6aecb17ff888a23aaa6f2
 }
 .contact-container button:hover{
     background-color: #76C63E;
@@ -36,10 +32,6 @@
     outline: none;
     color:black;
     border-radius: 8px;
-<<<<<<< HEAD
-=======
-
->>>>>>> f2dcb9668755c8a16bc6aecb17ff888a23aaa6f2
 }
 .top-form{
     display: flex;

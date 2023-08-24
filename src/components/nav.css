@@ -4,8 +4,7 @@
     /* border: 1px solid red; */
 
 }
-.blurred-navbar {
-}
+
 .top-navbar{
     background:#000000;
     display: flex;
@@ -124,11 +123,7 @@
 .with-submenu:hover .submenu {
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
   width: 260px;
-=======
-   width: 260px;
->>>>>>> f2dcb9668755c8a16bc6aecb17ff888a23aaa6f2
 }
 
 @media (max-width: 574px){
