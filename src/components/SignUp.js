@@ -42,6 +42,21 @@ function SignUp() {
     <section>
       <div className='sign-up'>
         <h2>Sign Up For Our Mental Health Newsletter</h2>
+<<<<<<< HEAD
+=======
+
+      <form onSubmit={handleSubmit}>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          value={email}
+          onChange={handleEmailChange}
+          required
+        />
+        <button type="submit">SUBSCRIBE</button>
+      </form>
+>>>>>>> f2dcb9668755c8a16bc6aecb17ff888a23aaa6f2
 
         <form onSubmit={handleSubmit}>
           <input

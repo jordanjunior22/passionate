@@ -36,8 +36,8 @@ function Nav() {
     return (
       <section className="navbar">
         <div className='top-navbar'>
-            <p className='animate-text'> <BiSolidPhoneCall /> +1 (234) 456 2345</p>
-            <p className='animate-text'> <MdEmail /> passionate@gmail.com</p>
+            <p className='animate-text'> <BiSolidPhoneCall /> +1 (571) 265 5198</p>
+            <p className='animate-text'> <MdEmail /> pchhservicesllc@gmail.com</p>
         </div>
         <div className='bottom-navbar blurred-navbar'>
           <Link href='/'><img src='../images/logo.png' alt="logo" className='logo'/></Link>
@@ -77,14 +77,18 @@ function Nav() {
        
         <ul ref={ref} className={`side-nav${navbarOpen ? ' show-menu' : ''}`}>
                 <li><Link href="/" className='links' onClick={() => setNavbarOpen(false)}>Home</Link></li>
-                <li className='links with-submenu'>About
+                <li className='links with-submenu'><Link href='/about' className='links'>About</Link>
                     <ul className='submenu'>
                         <li><Link href="/about/gallery" className='sub-links' onClick={() => setNavbarOpen(false)}>Gallery</Link></li>
                         <li><Link href="/about/team" className='sub-links' onClick={() => setNavbarOpen(false)}>Meet The Team</Link></li>
                         <li><Link href="/about/faqs" className='sub-links' onClick={() => setNavbarOpen(false)}>FAQs</Link></li>
                     </ul>
                 </li>
+<<<<<<< HEAD
                 <li className='links with-submenu'><Link href='/#programs-id' className='links' onClick={() => setNavbarOpen(false)}>Programs</Link> 
+=======
+                <li className='links with-submenu'><Link href='/#programs-id' className='links'>Programs</Link>
+>>>>>>> f2dcb9668755c8a16bc6aecb17ff888a23aaa6f2
                     <ul className='submenu'>
                         <li><Link href="/programs/residencial" className='sub-links' onClick={() => setNavbarOpen(false)}>Residencial Support Programs</Link></li>
                         <li><Link href="/programs/community" className='sub-links' onClick={() => setNavbarOpen(false)}>Community Support</Link></li>

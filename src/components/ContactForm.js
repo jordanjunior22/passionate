@@ -43,6 +43,7 @@ function ContactForm() {
   
   return (
     <section id='contact-id'>
+<<<<<<< HEAD
     <form className='contact-container' onSubmit={handleSubmit}>
       <div className='top-form'>
         <div className='form-fields'>
@@ -55,6 +56,19 @@ function ContactForm() {
             onChange={(e) => setName(e.target.value)}
           />
         </div>
+=======
+        <form className='contact-container'>    
+            <div className='top-form'>
+                <div className='form-fields'>
+                    <p>Name</p>
+                    <input type='text' placeholder='Eg. Dorothea Dix' required/>
+                </div>
+  
+                <div className='form-fields'>
+                    <p>Phone</p>
+                    <input type='text' placeholder='Eg. +1 703 911 1802' required/>
+                </div>
+>>>>>>> f2dcb9668755c8a16bc6aecb17ff888a23aaa6f2
 
         <div className='form-fields'>
           <p>Phone</p>
@@ -67,6 +81,7 @@ function ContactForm() {
           />
         </div>
 
+<<<<<<< HEAD
         <div className='form-fields'>
           <p>Email</p>
           <input
@@ -91,6 +106,19 @@ function ContactForm() {
       <button type='submit'>SEND MESSAGE</button>
     </form>
   </section>
+=======
+            <div className='textarea'>
+                <div className='form-textarea'>
+                    <p>Message</p>
+                    <textarea type='textarea' >
+                        
+                    </textarea>
+                </div>
+            </div>
+            <button type='submit'>SEND MESSAGE</button>
+        </form>
+    </section>
+>>>>>>> f2dcb9668755c8a16bc6aecb17ff888a23aaa6f2
   )
 }
 

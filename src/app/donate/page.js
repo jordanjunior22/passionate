@@ -15,12 +15,20 @@ function page() {
 
         <div className='details'>
             <h2 className='h2-tags'>Donations </h2>
+<<<<<<< HEAD
             <p className='set-opacity'>Passionate Center & Homes Healthcare Services is 
             partnered with Mezah Foundation, a non-profit 501c3 organization, which means all donations 
             are tax deductible. We immensely appreciate our donors and are deeply grateful for their support. 
             Private donations are always appreciated as they assist to provide quality services and scholarships 
             to the less privalaged. If you would like more information regarding the best way for you to donate 
             to Mezah Foundation, please contact us.</p>
+=======
+            <p className='set-opacity'>Passionate Center & Homes Healthcare Services is partnered with Mezah Foundation, a non-profit 501c3 organization, 
+              which means all donations are tax deductible. We immensely appreciate our donors and are deeply grateful for their support.
+              Private donations are always appreciated as they assist to provide quality services and scholarships 
+              to the less privalaged. If you would like more information regarding the best way for you to donate 
+              to Mezah Foundation, please contact us.</p>
+>>>>>>> f2dcb9668755c8a16bc6aecb17ff888a23aaa6f2
         </div>
 
         <div className='donate-button'>

@@ -20,7 +20,10 @@
     outline: none;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
+<<<<<<< HEAD
     
+=======
+>>>>>>> f2dcb9668755c8a16bc6aecb17ff888a23aaa6f2
 } 
 .sign-up button{
     flex: 1;
@@ -45,6 +48,12 @@
     .sign-up button{
         margin-top: 1em;
         border-radius: 8px;
+<<<<<<< HEAD
+    }
+    .sign-up input{
+        border-radius: 8px;
+=======
+>>>>>>> f2dcb9668755c8a16bc6aecb17ff888a23aaa6f2
     }
     .sign-up input{
         border-radius: 8px;

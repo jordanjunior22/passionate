@@ -27,8 +27,13 @@ function Home() {
     <section>
       <div className='header' style={{ backgroundColor: currentBgColor }}>
         <div className='header-info'>
+<<<<<<< HEAD
           <p style={{backgroundColor:'#000000', opacity:0.8, textAlign: "center", borderTopLeftRadius: '8px'}}>Renew Your Freedom at</p>
           <h2 className='focus-in-expand '>Passionate Center & Homes Healthcare Services</h2>
+=======
+          <p style={{backgroundColor:'#000000', opacity:0.8, textAlign: "center"}}>Renew Your Freedom At</p>
+          <h2>Passionate Center & Homes Healthcare Services</h2>
+>>>>>>> f2dcb9668755c8a16bc6aecb17ff888a23aaa6f2
           <h3>Your Mental Wellness, Is Our Passionate Priority</h3>
           <p>Passionate Center & Homes Healthcare Services provides an 
             opportunity for individuals dealing with mental health struggles 
