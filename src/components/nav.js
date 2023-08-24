@@ -84,11 +84,7 @@ function Nav() {
                         <li><Link href="/about/faqs" className='sub-links' onClick={() => setNavbarOpen(false)}>FAQs</Link></li>
                     </ul>
                 </li>
-<<<<<<< HEAD
                 <li className='links with-submenu'><Link href='/#programs-id' className='links' onClick={() => setNavbarOpen(false)}>Programs</Link> 
-=======
-                <li className='links with-submenu'><Link href='/#programs-id' className='links'>Programs</Link>
->>>>>>> f2dcb9668755c8a16bc6aecb17ff888a23aaa6f2
                     <ul className='submenu'>
                         <li><Link href="/programs/residencial" className='sub-links' onClick={() => setNavbarOpen(false)}>Residencial Support Programs</Link></li>
                         <li><Link href="/programs/community" className='sub-links' onClick={() => setNavbarOpen(false)}>Community Support</Link></li>

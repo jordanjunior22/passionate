@@ -2,15 +2,13 @@
 "use client"
 import React from 'react'
 import './footer.css'
-import Image from 'next/image';
 import {TfiEmail} from 'react-icons/tfi'
-import {BsFacebook, BsTiktok, BsTwitter} from 'react-icons/bs'
+import {BsFacebook} from 'react-icons/bs'
 import {BsWhatsapp} from 'react-icons/bs'
 import {FaInstagram} from 'react-icons/fa';
 import { BsTwitter } from 'react-icons/bs';
 import { BsTiktok } from 'react-icons/bs';
 import Link from 'next/link';
-import { FaInstagram } from 'react-icons/fa';
 
 function Footer() {
 
@@ -49,26 +47,16 @@ function Footer() {
                     <p>+1 571 265 5198</p>
                     <p>pcchservicesllc@gmail.com</p>
                     <p>5721 Eliot Ct, Unit 173</p>
-<<<<<<< HEAD
                     <p>Alexandria, VIrginia 22311</p>
-=======
-                    <p> Alexandria, VIrginia 22311</p>
->>>>>>> f2dcb9668755c8a16bc6aecb17ff888a23aaa6f2
                 </div>
 
                 <div className='footer-container-top-items'>
                     <h3>Our Services</h3>
                     <Link  href='/' className='Link'>Home</Link>
-<<<<<<< HEAD
                     <Link  href='/#about-id' className='Link'>About</Link>
                     <Link  href='/#programs-id' className='Link'>Programs</Link>
                     <Link  href='/getinvlove' className='Link'>Get Involve</Link>
                     <Link  href='/#contact-id' className='Link'>Contact</Link>
-=======
-                    <Link  href='/#about' className='Link'>About</Link>
-                    <Link  href='/#programs-id' className='Link'>Programs</Link>
-                    <Link  href='/#contact' className='Link'>Contact</Link>
->>>>>>> f2dcb9668755c8a16bc6aecb17ff888a23aaa6f2
                     <Link  href='/donate' className='Link'>Donate</Link>
                 </div>
 
@@ -76,12 +64,8 @@ function Footer() {
                     <h3>Quick Links</h3>
                     <Link  href='/about/gallery' className='Link'>Galley</Link>
                     <Link  href='/about/team' className='Link'>Meet The Team</Link>
-<<<<<<< HEAD
                     <Link  href='/getinvolve/careers' className='Link'>Careers</Link>
                     <Link  href='about/faqs' className='Link'>FAQS</Link>
-=======
-                    <Link  href='/faqs' className='Link'>FAQs</Link>
->>>>>>> f2dcb9668755c8a16bc6aecb17ff888a23aaa6f2
                 </div>
 
                 <div className='logo-and-social'>
@@ -92,20 +76,9 @@ function Footer() {
                         <button onClick={GoInstagram}> <FaInstagram/> </button>
                      </div>
                      <div className='socials'>
-<<<<<<< HEAD
                         <button onClick={GoTwitter}> <BsTwitter/> </button>
                         <button onClick={GoTiktok}> <BsTiktok/> </button>
                         <button onClick={GoPhone}> <BsWhatsapp/> </button>
-=======
-                        <button> <TfiEmail/> </button>
-                        <button> <BsFacebook/> </button>
-                        <button> <FaInstagram/> </button>
-                     </div>
-                     <div className='socials'>
-                        <button> <BsTwitter/> </button>
-                        <button> <BsTiktok/> </button>
-                        <button> <BsWhatsapp/> </button>
->>>>>>> f2dcb9668755c8a16bc6aecb17ff888a23aaa6f2
                      </div>
                 </div>
 
