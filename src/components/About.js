@@ -45,11 +45,7 @@ function About() {
           <h4 className='remove-padding'> How We Can Help </h4>
           <p id='apply-opacity' className='remove-padding'>For those facing the challenges of mental illness, Passionate Center & Homes is a place to call home.</p>
           
-<<<<<<< HEAD
           <div className='boxes' id='programs-id'>
-=======
-          <div className='boxes' id='program-id'>
->>>>>>> f2dcb9668755c8a16bc6aecb17ff888a23aaa6f2
             
               <div className='how-info '> 
                 <div className='how-left'>
