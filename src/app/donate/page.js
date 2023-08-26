@@ -28,7 +28,7 @@ function page() {
         </div>
 
         <div className='donate-button'>
-            <button onClick='Pay'>Donate</button>
+            <button onClick={Pay}>Donate</button>
         </div>
     </div>
   )
