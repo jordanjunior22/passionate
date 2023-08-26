@@ -36,7 +36,7 @@ function Footer() {
     
       const GoPhone = () => {
         // Redirect the user to the specified link
-        window.open('https://www.example.com', '_blank'); // Replace with your desired link
+        window.location.href = 'tel:+15712655198';
       };
   return (
     <session>

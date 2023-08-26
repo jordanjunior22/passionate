@@ -1,8 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
+"use client"
 import React from 'react'
 import '../programs/residencial/residencial.css'
 function page() {
+   const GoPay = () => {
+    // Redirect the user to the specified link
+    window.open('https://buy.stripe.com/5kAdTa3925zifle7ss', '_blank');
+  };
   return (
     <div className='add-padding'>
         <div className='residencial flex-reverse'>    
@@ -24,7 +29,7 @@ function page() {
         </div>
 
         <div className='donate-button'>
-            <button>Donate</button>
+            <button onClick={GoPay}>Donate</button>
         </div>
     </div>
   )
