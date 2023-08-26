@@ -2,6 +2,7 @@
 import React from 'react'
 import '../programs/residencial/residencial.css'
 import {GrStatusGoodSmall} from 'react-icons/gr'
+import Link from 'next/link'
 
 function page() {
   return (
@@ -48,6 +49,10 @@ function page() {
                     <li> <GrStatusGoodSmall className='bullet'/> On-site support and coaching from Behavioral Health Coaches, with an excellent staff to resident ratio, 24-hours a day, 7 days a week.</li>
                     <li> <GrStatusGoodSmall className='bullet'/> Integration with community treatment members and family to provide for comprehensive care in the community.</li>
                 </ul>
+
+                <Link href='/getinvolve/careers' className='link-deco'>
+                    <button className='careers'>Careers</button>
+                </Link>
             </div>
         </div>
         

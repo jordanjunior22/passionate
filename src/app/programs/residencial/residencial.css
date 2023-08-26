@@ -79,9 +79,20 @@
     margin-top: 1em;
     transition: background-color 0.5s ease-in-out;
 }
-.donate-button button:hover{  
+.donate-button button:hover, .careers:hover{  
 
     background-color: #76C63E;
+
+ }
+ .careers{
+    border-radius: 5px;
+    padding: 0.8em 2em 0.8em 2em;
+    background-color: #0076BA;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 1em;
+    transition: background-color 0.5s ease-in-out;
 
  }
 @media (max-width: 768px) {

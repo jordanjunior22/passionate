@@ -40,7 +40,7 @@ function Nav() {
             <p className='animate-text'> <MdEmail /> pchhservicesllc@gmail.com</p>
         </div>
         <div className='bottom-navbar blurred-navbar'>
-          <Link href='/'><img src='./images/logo.png' alt="logo" className='logo'/></Link>
+          <Link href='/'><img src='../images/logo.png' alt="logo" className='logo'/></Link>
 
             <ul className='bottom-navbar-links'>
                 <li><Link href="/" className='links'>Home</Link></li>
@@ -55,12 +55,7 @@ function Nav() {
                     <ul className='submenu'>
                         <li><Link href="/programs/residencial" className='sub-links'>Residencial Support Programs</Link></li>
                         <li><Link href="/programs/community" className='sub-links'>Community Support</Link></li>
-                    </ul>
-                </li>
-
-                <li className='links with-submenu'><Link href='/getinvolve' className='links'>Get Involve</Link> 
-                    <ul className='submenu'>
-                        <li><Link href="/getinvolve/careers" className='sub-links'>Careers</Link></li>
+                        <li><Link href="/getinvolve" className='sub-links'>Get Involve</Link></li>
                     </ul>
                 </li>
                 
@@ -88,13 +83,10 @@ function Nav() {
                     <ul className='submenu'>
                         <li><Link href="/programs/residencial" className='sub-links' onClick={() => setNavbarOpen(false)}>Residencial Support Programs</Link></li>
                         <li><Link href="/programs/community" className='sub-links' onClick={() => setNavbarOpen(false)}>Community Support</Link></li>
+                        <li><Link href="/getinvolve" className='sub-links' onClick={() => setNavbarOpen(false)}>Get Involve</Link></li>
                     </ul>
                 </li>  
-                <li className='links with-submenu'><Link href='/getinvolve' className='links' onClick={() => setNavbarOpen(false)}>Get Involve</Link> 
-                    <ul className='submenu'>
-                        <li><Link href="/getinvolve/careers" className='sub-links' onClick={() => setNavbarOpen(false)}>Careers</Link></li>
-                    </ul>
-                </li>              
+       
                 <li><Link href='/#contact-id' className='links' onClick={() => setNavbarOpen(false)}>Contact</Link></li>
                 <li><Link href='/donate' className='links donate' onClick={() => setNavbarOpen(false)}>Donate</Link></li>
                 
