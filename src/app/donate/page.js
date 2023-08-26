@@ -3,7 +3,7 @@
 import React from 'react'
 import '../programs/residencial/residencial.css'
 function page() {
-   const Pay = () => {
+   const GoPay = () => {
     // Redirect the user to the specified link
     window.open('https://buy.stripe.com/5kAdTa3925zifle7ss', '_blank');
   };
@@ -28,7 +28,7 @@ function page() {
         </div>
 
         <div className='donate-button'>
-            <button onClick={Pay}>Donate</button>
+            <button onClick={GoPay}>Donate</button>
         </div>
     </div>
   )
