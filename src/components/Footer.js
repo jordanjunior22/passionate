@@ -69,7 +69,7 @@ function Footer() {
                 </div>
 
                 <div className='logo-and-social'>
-                    <Link href='/'><img src='../images/logo.png' alt="logo" className='logo'/></Link>
+                    <Link href='/'><img src='./images/logo.png' alt="logo" className='logo'/></Link>
                     <div className='socials'>
                         <button onClick={GoEmail}> <TfiEmail/> </button>
                         <button onClick={GoFacebook}> <BsFacebook/> </button>
