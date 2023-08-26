@@ -3,6 +3,10 @@
 import React from 'react'
 import '../programs/residencial/residencial.css'
 function page() {
+   const Pay = () => {
+    // Redirect the user to the specified link
+    window.open('https://buy.stripe.com/5kAdTa3925zifle7ss', '_blank');
+  };
   return (
     <div className='add-padding'>
         <div className='residencial flex-reverse'>    
@@ -24,7 +28,7 @@ function page() {
         </div>
 
         <div className='donate-button'>
-            <button>Donate</button>
+            <button onClick='Pay'>Donate</button>
         </div>
     </div>
   )
