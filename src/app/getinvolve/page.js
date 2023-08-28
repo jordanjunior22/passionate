@@ -45,7 +45,7 @@ function page() {
                 <h2 className='h2-tags'>Work with Us</h2>
                 <ul className='set-opacity liststyle'>
                     <li> <GrStatusGoodSmall className='bullet'/> We are a intimate, caring team always looking for compassionate people interested in improving the lives of those they work with.</li>
-                    <li> <GrStatusGoodSmall className='bullet'/> Check out our open posstion by clicking the "Career" buton below.</li>
+                    <li> <GrStatusGoodSmall className='bullet'/> Check out our open posstion by clicking the &quot;Career&quot; buton below.</li>
                     <li> <GrStatusGoodSmall className='bullet'/> Please submit all resumes and inquiries to pcchservice@gmail.com for consideration.</li>
                     <li> <GrStatusGoodSmall className='bullet'/> I.</li>
                 </ul>
