@@ -10,7 +10,7 @@ function page() {
         <div className='residencial'>    
             <img src='../images/image1.jpg' alt='image1' className='margintop'/>
             <div className='heading'>
-                <p className='first-text set-opacity'>WE'RE IN THIS TOGETHER</p>
+                <p className='first-text set-opacity'>WE&apos;RE IN THIS TOGETHER</p>
                 <h2 className='h2-tags'>Get Involve With Us</h2>
                 <p className='set-opacity'>We welcome inquiries from prospective residents, their families and community professionals.</p>
             </div> 
@@ -46,7 +46,7 @@ function page() {
                 <ul className='set-opacity liststyle'>
                     <li> <GrStatusGoodSmall className='bullet'/> We are an intimate, caring team always looking for compassionate people interested in improving the lives of those they work with.</li>
                     <li> <GrStatusGoodSmall className='bullet'/> Ultimately, working with us wil be a rewarding experience for individuals who are passionate about mental health care.</li>
-                    <li> <GrStatusGoodSmall className='bullet'/> Check out our open posstion by clicking the "Career" buton below.Join us to make meaningful impact and a significant difference in the lives of individuals with mental health disabilities and disorders. </li>
+                    <li> <GrStatusGoodSmall className='bullet'/> Check out our open posstion by clicking the &quot;Career&quot; buton below.Join us to make meaningful impact and a significant difference in the lives of individuals with mental health disabilities and disorders. </li>
                     <li> <GrStatusGoodSmall className='bullet'/> Please submit all resumes and inquiries to pcchservice@gmail.com for consideration.</li>
                 </ul>
 
@@ -63,7 +63,7 @@ function page() {
                 <ul className='set-opacity liststyle'>
                     <li> <GrStatusGoodSmall className='bullet'/> We provide valuable insights into various mental health conditions, explaining their symptoms, causes, and effects.</li>
                     <li> <GrStatusGoodSmall className='bullet'/> You can learn about conditions such as depression, anxiety, bipolar disorder, and schizophrenia, increasing your awareness and understanding.</li>
-                    <li> <GrStatusGoodSmall className='bullet'/> We offer practical advice and coping strategies for managing stress, anxiety, and other challenges.Check out our free blog by clicking the "Blog" buton below.</li>
+                    <li> <GrStatusGoodSmall className='bullet'/> We offer practical advice and coping strategies for managing stress, anxiety, and other challenges.Check out our free blog by clicking the &quot;Blog&quot; buton below.</li>
                     <li> <GrStatusGoodSmall className='bullet'/> Discover effective self-care practices that promote mental well-being and resources such as hotlines, therapy options, and support groups.</li>
                 </ul>
 
