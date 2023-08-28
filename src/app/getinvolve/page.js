@@ -10,7 +10,7 @@ function page() {
         <div className='residencial'>    
             <img src='../images/image1.jpg' alt='image1' className='margintop'/>
             <div className='heading'>
-                <p className='first-text set-opacity'>WE'RE IN THIS TOGETHER</p>
+                <p className='first-text set-opacity'>WE&apos;RE IN THIS TOGETHER</p>
                 <h2 className='h2-tags'>Get Involve With Us</h2>
                 <p className='set-opacity'>We welcome inquiries from prospective residents, their families and community professionals.</p>
             </div> 
