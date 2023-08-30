@@ -18,7 +18,7 @@ function page() {
 
         <div className='blog-container border-gradient border-gradient-purple'>
           <div className='image-container'> 
-            <img src='../images/pots.jpg' alt='blogimage'/>
+            <img src='https://jordanjunior22.github.io/passionate/images/pots.jpg' alt='blogimage'/>
           </div>
 
           <div className='blog-des'>
@@ -33,7 +33,7 @@ function page() {
 
         <div className='blog-container border-gradient border-gradient-purple'>
           <div className='image-container'> 
-            <img src='../images/blog2.jpg' alt='blogimage'/>
+            <img src='https://jordanjunior22.github.io/passionate/images/blog2.jpg' alt='blogimage'/>
           </div>
 
           <div className='blog-des'>
