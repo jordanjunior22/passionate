@@ -44,10 +44,10 @@ function page() {
                 <p className='first-text set-opacity'>CAREERS</p>
                 <h2 className='h2-tags'>Work with Us</h2>
                 <ul className='set-opacity liststyle'>
-                    <li> <GrStatusGoodSmall className='bullet'/> We are a intimate, caring team always looking for compassionate people interested in improving the lives of those they work with.</li>
-                    <li> <GrStatusGoodSmall className='bullet'/> Check out our open posstion by clicking the &quot;Career&quot; buton below.</li>
+                    <li> <GrStatusGoodSmall className='bullet'/> We are an intimate, caring team always looking for compassionate people interested in improving the lives of those they work with.</li>
+                    <li> <GrStatusGoodSmall className='bullet'/> Ultimately, working with us wil be a rewarding experience for individuals who are passionate about mental health care.</li>
+                    <li> <GrStatusGoodSmall className='bullet'/> Check out our open posstion by clicking the &quot;Career&quot; buton below.Join us to make meaningful impact and a significant difference in the lives of individuals with mental health disabilities and disorders. </li>
                     <li> <GrStatusGoodSmall className='bullet'/> Please submit all resumes and inquiries to pcchservice@gmail.com for consideration.</li>
-                    <li> <GrStatusGoodSmall className='bullet'/> I.</li>
                 </ul>
 
                 <Link href='/getinvolve/careers' className='link-deco'>
@@ -61,11 +61,15 @@ function page() {
                 <p className='first-text set-opacity'>BLOG</p>
                 <h2 className='h2-tags'>Read, Lean & Grow</h2>
                 <ul className='set-opacity liststyle'>
-                    <li> <GrStatusGoodSmall className='bullet'/> I.</li>
-                    <li> <GrStatusGoodSmall className='bullet'/> E.</li>
-                    <li> <GrStatusGoodSmall className='bullet'/> On.</li>
-                    <li> <GrStatusGoodSmall className='bullet'/> I.</li>
+                    <li> <GrStatusGoodSmall className='bullet'/> We provide valuable insights into various mental health conditions, explaining their symptoms, causes, and effects.</li>
+                    <li> <GrStatusGoodSmall className='bullet'/> You can learn about conditions such as depression, anxiety, bipolar disorder, and schizophrenia, increasing your awareness and understanding.</li>
+                    <li> <GrStatusGoodSmall className='bullet'/> We offer practical advice and coping strategies for managing stress, anxiety, and other challenges.Check out our free blog by clicking the &quot;Blog&quot; buton below.</li>
+                    <li> <GrStatusGoodSmall className='bullet'/> Discover effective self-care practices that promote mental well-being and resources such as hotlines, therapy options, and support groups.</li>
                 </ul>
+
+                <Link href='/getinvolve/careers' className='link-deco'>
+                    <button className='careers'>Blog</button>
+                </Link>
             </div>
             <img src='../images/image3.jpg' alt='image3'/>
         </div>
