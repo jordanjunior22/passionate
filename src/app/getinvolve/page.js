@@ -6,10 +6,6 @@ import {GrStatusGoodSmall} from 'react-icons/gr'
 import Link from 'next/link'
 
 function page() {
-    const GoBlog = () => {
-    // Redirect the user to the specified link
-    window.location.href = '/blog';
-  };
   return (
     <div className='add-padding'>
         <div className='residencial'>    
@@ -72,8 +68,8 @@ function page() {
                     <li> <GrStatusGoodSmall className='bullet'/> Discover effective self-care practices that promote mental well-being and resources such as hotlines, therapy options, and support groups.</li>
                 </ul>
 
-                <Link href='/getinvolve/careers' className='link-deco'>
-                    <button className='careers' onClick={GoBlog}>Blog</button>
+                <Link href='/blog/careers' className='link-deco'>
+                    <button className='careers'>Blog</button>
                 </Link>
             </div>
             <img src='../images/image3.jpg' alt='image3'/>
