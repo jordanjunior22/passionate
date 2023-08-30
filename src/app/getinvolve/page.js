@@ -8,7 +8,7 @@ import Link from 'next/link'
 function page() {
     const GoBlog = () => {
     // Redirect the user to the specified link
-    window.location.href = 'passionate/blog';
+    window.location.href = '/blog';
   };
   return (
     <div className='add-padding'>
