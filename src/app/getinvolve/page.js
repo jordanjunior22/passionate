@@ -1,10 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
+"use client"
 import React from 'react'
 import '../programs/residencial/residencial.css'
 import {GrStatusGoodSmall} from 'react-icons/gr'
 import Link from 'next/link'
 
 function page() {
+    const GoBlog = () => {
+    // Redirect the user to the specified link
+    window.location.href = '/blog';
+  };
   return (
     <div className='add-padding'>
         <div className='residencial'>    
@@ -68,7 +73,7 @@ function page() {
                 </ul>
 
                 <Link href='/getinvolve/careers' className='link-deco'>
-                    <button className='careers'>Blog</button>
+                    <button className='careers' onClick={GoBlog}>Blog</button>
                 </Link>
             </div>
             <img src='../images/image3.jpg' alt='image3'/>
