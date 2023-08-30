@@ -16,7 +16,7 @@ function page() {
     <h2 className='title'>BlOG <span style={{color:'#76C63E'}}>POST</span></h2>
       <div className='parent '>
 
-        <div className='blog-container border-gradient border-gradient-purple'>
+        <div className='blog-container border-gradient'>
           <div className='image-container'> 
             <img src='https://jordanjunior22.github.io/passionate/images/pots.jpg' alt='blogimage'/>
           </div>
