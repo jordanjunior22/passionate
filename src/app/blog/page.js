@@ -3,14 +3,6 @@ import React from 'react'
 import './blog.css'
 
 function page() {
-  const FirstPost = () => {
-    // Redirect the user to the specified link
-     window.location.href ='/blog/firstpost';
-  };
-  const SecondPost = () => {
-    // Redirect the user to the specified link
-     window.location.href ='/blog/secondpost';
-  };
   return (
     <section>
     <h2 className='title'>BlOG <span style={{color:'#76C63E'}}>POST</span></h2>
@@ -27,7 +19,10 @@ function page() {
               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
               nisi ut aliquip ex ea commodo consequat.</p>
-            <button onClick={FirstPost}>See Post</button>
+            <Link href='/blog/firstpost'>
+                <button>See Post</button>
+            </Link>
+            
           </div>
         </div>
 
@@ -42,7 +37,9 @@ function page() {
               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
               nisi ut aliquip ex ea commodo consequat.</p>
-            <button onClick={SecondPost}>See Post</button>
+            <Link href='/blog/secondpost'>
+                <button>See Post</button>
+            </Link>
           </div>
         </div>
 
