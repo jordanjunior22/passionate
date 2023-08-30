@@ -5,11 +5,11 @@ import './blog.css'
 function page() {
   const FirstPost = () => {
     // Redirect the user to the specified link
-    window.open('/blog/firstpost', '_blank');
+    window.open('passionate/blog/firstpost', '_blank');
   };
   const SecondPost = () => {
     // Redirect the user to the specified link
-    window.open('/blog/secondpost', '_blank');
+    window.open('passionate/blog/secondpost', '_blank');
   };
   return (
     <section>
