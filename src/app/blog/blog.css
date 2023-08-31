@@ -47,13 +47,10 @@
 }
 
 .border-gradient {
-    border: 1px solid;
-    border-image-slice: 1;
-    border-width: 3px;
-  }
-  .border-gradient-purple {
-    border-image-source: linear-gradient(to left, #76C63E, #0076BA);
-  }
+  border: 3px solid transparent; /* Set the initial border width and color */
+  border-image: linear-gradient(to left, #76C63E, #0076BA);
+  border-image-slice: 1;
+}
 .set-opacity{
     opacity: 0.6;
     font-size: 0.8rem;

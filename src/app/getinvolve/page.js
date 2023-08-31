@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+"use client"
 import React from 'react'
 import '../programs/residencial/residencial.css'
 import {GrStatusGoodSmall} from 'react-icons/gr'
@@ -67,7 +68,7 @@ function page() {
                     <li> <GrStatusGoodSmall className='bullet'/> Discover effective self-care practices that promote mental well-being and resources such as hotlines, therapy options, and support groups.</li>
                 </ul>
 
-                <Link href='/getinvolve/careers' className='link-deco'>
+                <Link href='/blog' className='link-deco'>
                     <button className='careers'>Blog</button>
                 </Link>
             </div>
