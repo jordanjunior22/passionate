@@ -7,6 +7,7 @@ import {ImHome} from 'react-icons/im'
 import {PiUsersThreeFill} from 'react-icons/pi'
 import Link from 'next/link'
 import Reveal from '@/components/ScrollReveal'
+import Bounce from '@/components/Bounce'
 
 function About() {
   return (
@@ -50,7 +51,7 @@ function About() {
           <p id='apply-opacity' className='remove-padding'>For those facing the challenges of mental illness, Passionate Center & Homes is a place to call home.</p>
           
           <div className='boxes' id='programs-id'>
-            
+            <Bounce direction='left' delay={10}>
               <div className='how-info '> 
                 <div className='how-left'>
                   <ImHome className='how-images'/>
@@ -68,7 +69,9 @@ function About() {
                   </Link>                
                 </div>
               </div>
-                  
+              </Bounce>
+
+            <Bounce direction='right' delay={20}>
               <div className='how-info '> 
                 <div className='how-left'>
                   <PiUsersThreeFill className='how-images'/>
@@ -86,7 +89,8 @@ function About() {
                   </Link>
                 </div>
               </div>            
-     
+           </Bounce>
+                  
           </div>
         </div>
       </Reveal>
