@@ -43,19 +43,19 @@ function About() {
 
         </div>
         </Reveal>
-              
+
+        <Reveal>
         <div className='how'>
           <h4 className='remove-padding'> How We Can Help </h4>
           <p id='apply-opacity' className='remove-padding'>For those facing the challenges of mental illness, Passionate Center & Homes is a place to call home.</p>
           
           <div className='boxes' id='programs-id'>
-            <Reveal>
+            
               <div className='how-info '> 
                 <div className='how-left'>
                   <ImHome className='how-images'/>
                   <h5>Residential Programs</h5>
                 </div>
-          
                 <div className='how-right'>
                 <p id='apply-opacity'>
                 Experience Passionate Center & Homes Healthcare Services's most comprehensive level of support at our 
@@ -68,16 +68,12 @@ function About() {
                   </Link>                
                 </div>
               </div>
-              </Reveal>
-           
+                  
               <div className='how-info '> 
-                
-                <Reveal>
                 <div className='how-left'>
                   <PiUsersThreeFill className='how-images'/>
                   <h5>Community Support</h5>
                 </div>
-        
                 <div className='how-right'>
                   <p id='apply-opacity'>
                   Passionate Center & Homes Healthcare Services's Community Support Program helps our clients transition 
@@ -89,15 +85,11 @@ function About() {
                     <button className='read-more' >Read More</button>
                   </Link>
                 </div>
-                </Reveal>
               </div>            
-
+     
           </div>
-          
-
-          
         </div>
-        
+      </Reveal>
       </div>
     </section>
   )
