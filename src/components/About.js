@@ -6,13 +6,15 @@ import {TfiWrite} from 'react-icons/tfi'
 import {ImHome} from 'react-icons/im'
 import {PiUsersThreeFill} from 'react-icons/pi'
 import Link from 'next/link'
+import Reveal from './@components/ScrollReveal'
 
 function About() {
   return (
     <section>
       <div className='about-us' id='about-id'>
         <h3>Start A New Journey</h3>
-
+    
+        <Reveal>
         <div className='about-us-content'>
           <p>
           Situated in the DMV area, in the historic Alexandria area within Northern Virginia, 
@@ -40,13 +42,14 @@ function About() {
           </ul>
 
         </div>
-
+        </Reveal>
+              
         <div className='how'>
           <h4 className='remove-padding'> How We Can Help </h4>
           <p id='apply-opacity' className='remove-padding'>For those facing the challenges of mental illness, Passionate Center & Homes is a place to call home.</p>
           
           <div className='boxes' id='programs-id'>
-            
+            <Reveal>
               <div className='how-info '> 
                 <div className='how-left'>
                   <ImHome className='how-images'/>
@@ -65,9 +68,11 @@ function About() {
                   </Link>                
                 </div>
               </div>
-           
+              </Reveal>
            
               <div className='how-info '> 
+                
+                <Reveal>
                 <div className='how-left'>
                   <PiUsersThreeFill className='how-images'/>
                   <h5>Community Support</h5>
@@ -84,7 +89,7 @@ function About() {
                     <button className='read-more' >Read More</button>
                   </Link>
                 </div>
-
+                </Reveal>
               </div>            
 
           </div>
