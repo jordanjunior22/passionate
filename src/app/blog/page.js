@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import './blog.css'
+import Link from 'next/link';
 
 function page() {
   return (
