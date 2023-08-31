@@ -68,7 +68,7 @@ function page() {
                     <li> <GrStatusGoodSmall className='bullet'/> Discover effective self-care practices that promote mental well-being and resources such as hotlines, therapy options, and support groups.</li>
                 </ul>
 
-                <Link href='/blog/careers' className='link-deco'>
+                <Link href='/blog' className='link-deco'>
                     <button className='careers'>Blog</button>
                 </Link>
             </div>
