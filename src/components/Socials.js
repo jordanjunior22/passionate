@@ -7,7 +7,7 @@ import {FaInstagramSquare} from 'react-icons/fa'
 import {AiFillTwitterSquare} from 'react-icons/ai'
 import { BsTiktok } from 'react-icons/bs'
 import './socials.css'
-import Reveal from './@components/ScrollReveal'
+import Reveal from '@/components/ScrollReveal'
 
 function Socials() {
   const GoEmail = () => {
