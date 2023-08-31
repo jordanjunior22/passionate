@@ -8,6 +8,7 @@ import {AiFillTwitterSquare} from 'react-icons/ai'
 import { BsTiktok } from 'react-icons/bs'
 import './socials.css'
 import Reveal from '@/components/ScrollReveal'
+import Hover from '@/components/HoverButton'
 
 function Socials() {
   const GoEmail = () => {
@@ -42,12 +43,17 @@ function Socials() {
       <div className='socials-container'>
         <h2>Get In Touch</h2>
         <div className='social-media-icons'>
-           <button onClick={GoEmail}> <TfiEmail/> Email</button>
-           <button onClick={GoFacebook}> <BsFacebook/> Facebook</button>
-           <button onClick={GoInstagram}>< FaInstagramSquare/> Instagram</button>
-           <button onClick={GoTwitter}>< AiFillTwitterSquare/> Twitter</button>
-           <button onClick={GoTiktok}>< BsTiktok/> Tiktok</button>
-           <button onClick={GoPhone}> <BsWhatsapp/> Phone</button> 
+            <Hover><button onClick={GoEmail}> <TfiEmail/> Email</button></Hover>
+            <Hover><button onClick={GoFacebook}> <BsFacebook/> Facebook</button></Hover>
+            <Hover><button onClick={GoInstagram}>< FaInstagramSquare/> Instagram</button></Hover>
+            <Hover><button onClick={GoTwitter}>< AiFillTwitterSquare/> Twitter</button></Hover>
+            <Hover><button onClick={GoTiktok}>< BsTiktok/> Tiktok</button></Hover>
+            <Hover><button onClick={GoPhone}> <BsWhatsapp/> Phone</button> </Hover>
+           
+           
+           
+           
+           
            
         </div>
       </div>
