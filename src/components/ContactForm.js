@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import './contactform.css'
+import Reveal from '@/components/ScrollReveal'
 function ContactForm() {
 
     const [name, setName] = useState('');
@@ -43,6 +44,7 @@ function ContactForm() {
   
   return (
     <section id='contact-id'>
+    <Reveal>
     <form className='contact-container' onSubmit={handleSubmit}>
       <div className='top-form'>
         <div className='form-fields'>
@@ -90,6 +92,7 @@ function ContactForm() {
       </div>
       <button type='submit'>SEND MESSAGE</button>
     </form>
+    </Reveal>
   </section>
   )
 }
