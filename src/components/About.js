@@ -6,7 +6,7 @@ import {TfiWrite} from 'react-icons/tfi'
 import {ImHome} from 'react-icons/im'
 import {PiUsersThreeFill} from 'react-icons/pi'
 import Link from 'next/link'
-import Reveal from './@components/ScrollReveal'
+import Reveal from '@/components/ScrollReveal'
 
 function About() {
   return (
