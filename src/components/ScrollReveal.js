@@ -21,7 +21,7 @@ const ScrollReveal = ({ children }) => {
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={controls}
-      transition={{ duration: 0.6 }}
+      transition={{ duration: 0.3 }}
     >
       {children}
     </motion.div>
