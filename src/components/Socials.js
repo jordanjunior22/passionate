@@ -7,6 +7,7 @@ import {FaInstagramSquare} from 'react-icons/fa'
 import {AiFillTwitterSquare} from 'react-icons/ai'
 import { BsTiktok } from 'react-icons/bs'
 import './socials.css'
+import Reveal from './@components/ScrollReveal'
 
 function Socials() {
   const GoEmail = () => {
@@ -37,6 +38,7 @@ function Socials() {
   };
   return (
     <section>
+     <Reveal>
       <div className='socials-container'>
         <h2>Get In Touch</h2>
         <div className='social-media-icons'>
@@ -49,6 +51,7 @@ function Socials() {
            
         </div>
       </div>
+    </Reveal>
     </section>
     )
 }
