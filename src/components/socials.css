@@ -35,6 +35,7 @@
 @media (max-width: 425px) {
     .social-media-icons{
         flex-direction: column;
+        justify-content:center;
     }
     .social-media-icons button{
        margin-top: 1em;
