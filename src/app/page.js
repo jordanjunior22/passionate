@@ -8,7 +8,7 @@ import ContactForm from '@/components/ContactForm'
 import { motion, AnimatePresence } from 'framer-motion'
 import NProgress from 'nprogress'; // You can use any loading animation library
 import { Router } from 'next/router';
-import Map from '@components/Map'
+import Map from '@/components/Map'
 
 Router.events.on('routeChangeStart', () => {
   NProgress.start();
