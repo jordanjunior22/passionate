@@ -44,7 +44,7 @@ function Footer() {
             <div className='footer-container-top'>
                 <div className='footer-container-top-items'>
                     <h3>Contact Us</h3>
-                    <p>+1 571 265 5198</p>
+                    <p>+1 (571) 265 - 5198</p>
                     <p>pcchservicesllc@gmail.com</p>
                     <p>5721 Eliot Ct, Unit 173</p>
                     <p>Alexandria, VIrginia 22311</p>
@@ -85,7 +85,7 @@ function Footer() {
             </div>
 
             <div className='footer-container-bottom'>
-                <p>Copyright @2023 Allrights Reserved | <span style={{color:'#0076BA'}}>Designed by Jordan Junior</span></p>
+                <p>Copyright @2023 All Rights Reserved | <span style={{color:'#0076BA'}}>Designed By Jordan Junior</span></p>
             </div>
 
         </div>
