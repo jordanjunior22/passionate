@@ -45,7 +45,7 @@ function Footer() {
                 <div className='footer-container-top-items'>
                     <h3>Contact Us</h3>
                     <p>+1 (571) 265 - 5198</p>
-                    <p>pcchservicesllc@gmail.com</p>
+                    <p>pchhservicesllc@gmail.com</p>
                     <p>5721 Eliot Ct, Unit 173</p>
                     <p>Alexandria, VIrginia 22311</p>
                 </div>
