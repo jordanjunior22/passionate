@@ -32,7 +32,6 @@ function page() {
         <SignUp/>
         <Socials/>
         <ContactForm/>
-        <Map/>
       </div> 
   )
 }
