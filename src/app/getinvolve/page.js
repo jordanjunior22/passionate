@@ -59,17 +59,21 @@ function page() {
         
         <div className='details-1'>
             <div className='heading'>
-                <p className='first-text set-opacity'>BLOG</p>
+                <p className='first-text set-opacity'>BLOG / YouTube</p>
                 <h2 className='h2-tags'>Read, Lean & Grow</h2>
                 <ul className='set-opacity liststyle'>
                     <li> <GrStatusGoodSmall className='bullet'/> We provide valuable insights into various mental health conditions, explaining their symptoms, causes, and effects.</li>
                     <li> <GrStatusGoodSmall className='bullet'/> You can learn about conditions such as depression, anxiety, bipolar disorder, and schizophrenia, increasing your awareness and understanding.</li>
-                    <li> <GrStatusGoodSmall className='bullet'/> We offer practical advice and coping strategies for managing stress, anxiety, and other challenges.Check out our free blog by clicking the &quot;Blog&quot; buton below.</li>
+                    <li> <GrStatusGoodSmall className='bullet'/> We offer practical advice and coping strategies for managing stress, anxiety, and other challenges.Check out our free blog or YouTube Channel by clicking the &quot;Blog&quot; or &quot;YouTube&quot;buton below.</li>
                     <li> <GrStatusGoodSmall className='bullet'/> Discover effective self-care practices that promote mental well-being and resources such as hotlines, therapy options, and support groups.</li>
                 </ul>
 
                 <Link href='/blog' className='link-deco'>
-                    <button className='careers'>Blog</button>
+                    <button className='careers'>&ensp; Blog &ensp;</button>
+                </Link>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+                <Link href="https://youtube.com/" target="_blank" rel="noopener noreferrer" className='link-deco'>
+                    <button className='careers'>YouTube</button>
                 </Link>
             </div>
             <img src='../images/image3.jpg' alt='image3'/>

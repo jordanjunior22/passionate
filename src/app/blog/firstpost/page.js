@@ -27,8 +27,8 @@ function page() {
                 </p>
                 <p className='description'>
                 There are a number of resources available to provide support and information to people living with mental illnesses. 
-                If you or someone you know needs help, visit the <a href="https://www.themighty.com/suicide-prevention-resources/">suicide prevention resources</a> page
-                If you are in the U.S. and need support right now, call the <a href="https://988lifeline.org/">988 Suicide & Crisis Lifeline</a> at <a href="1-800-273-8255">1-800-273-8255</a> or <a href="988">988</a>.
+                If you or someone you know needs help, visit the <a href="https://www.themighty.com/suicide-prevention-resources/" target="_blank" rel="noopener noreferrer">suicide prevention resources</a> page
+                If you are in the U.S. and need support right now, call the <a href="https://988lifeline.org/" target="_blank" rel="noopener noreferrer">988 Suicide & Crisis Lifeline</a> at <a href="1-800-273-8255" target="_blank" rel="noopener noreferrer">1-800-273-8255</a> or <a href="988" target="_blank" rel="noopener noreferrer">988</a>.
                 </p>
         </div>
         

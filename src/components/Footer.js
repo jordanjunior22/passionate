@@ -66,6 +66,7 @@ function Footer() {
                     <Link  href='/about/team' className='Link'>Meet The Team</Link>
                     <Link  href='/getinvolve/careers' className='Link'>Careers</Link>
                     <Link  href='about/faqs' className='Link'>FAQS</Link>
+                    <Link  href="https://youtube.com/" target="_blank" rel="noopener noreferrer" className='Link'>YouTube</Link>
                 </div>
 
                 <div className='logo-and-social'>
