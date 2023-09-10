@@ -7,7 +7,7 @@ function page() {
   return (
     <div className='add-padding'>
         <div className='residencial'>    
-            <img src='../images/Cummunity.jpg' alt='Cummunity' className='margintop'/>
+            <img src='../images/Community.jpg' alt='Community' className='margintop'/>
             <div className='heading'>
                 <p className='first-text set-opacity'>HEAL AT HOME</p>
                 <h2 className='h2-tags'>Community Support Programs</h2>
