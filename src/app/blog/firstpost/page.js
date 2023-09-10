@@ -8,7 +8,7 @@ function page() {
 
         <div className='post-container'>
             <div className='image-container'>
-                <img src='../images/pots.jpg' alt='images'/>
+                <img src='../images/About.jpg' alt='About'/>
             </div>
             <p className='description'>Mental health refers to a person&apos;s psychological, social, and emotional well-being. 
                 Just like physical health, mental health is something everybody can actively work on. 

@@ -7,7 +7,7 @@ function page() {
   return (
     <div className='add-padding'>
         <div className='residencial'>    
-            <img src='../images/image1.jpg' alt='image1' className='margintop'/>
+            <img src='../images/Cummunity.jpg' alt='Cummunity' className='margintop'/>
             <div className='heading'>
                 <p className='first-text set-opacity'>HEAL AT HOME</p>
                 <h2 className='h2-tags'>Community Support Programs</h2>
@@ -31,16 +31,16 @@ function page() {
                     <li> <GrStatusGoodSmall className='bullet'/> Transportation available for community participation whether for work, school, medical, or recreational activities.</li>
                 </ul>
             </div>
-            <img src='../images/image1.jpg' alt='image1'/>
+            <img src='../images/Collaborate.jpg' alt='Collaborate'/>
                  
         </div>
 
         <div className='details-1 flex-reverse'>
-            <img src='../images/image2.jpg' alt='image2' className='margintop'/>
+            <img src='../images/Support.jpg' alt='Support' className='margintop'/>
 
             <div className='heading'>
                 <p className='first-text set-opacity'>WE&apos;RE IN THIS TOGETHER</p>
-                <h2 className='h2-tags'>support and education for families</h2>
+                <h2 className='h2-tags'>Support and Education for Families</h2>
                 <ul className='set-opacity liststyle'>
                     <li> <GrStatusGoodSmall className='bullet'/> Social groups that help residents understand and deal with particular symptoms and life skills throughout recovery.</li>
                     <li> <GrStatusGoodSmall className='bullet'/> Ability to select your own community providers including psychiatrists, therapists, and medical personnel.</li>
@@ -61,7 +61,7 @@ function page() {
                     <li> <GrStatusGoodSmall className='bullet'/> Integration with community treatment members and family to provide for comprehensive care in the community.</li>
                 </ul>
             </div>
-            <img src='../images/image3.jpg' alt='image3'/>
+            <img src='../images/Discover.jpg' alt='Discover'/>
         </div>
     </div>
   )

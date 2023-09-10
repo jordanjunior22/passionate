@@ -9,7 +9,7 @@ function page() {
   return (
     <div className='add-padding'>
         <div className='residencial'>    
-            <img src='../images/image1.jpg' alt='image1' className='margintop'/>
+            <img src='../images/Getinvolve.jpg' alt='Getinvolve' className='margintop'/>
             <div className='heading'>
                 <p className='first-text set-opacity'>WE&apos;RE IN THIS TOGETHER</p>
                 <h2 className='h2-tags'>Get Involve With Us</h2>
@@ -34,12 +34,12 @@ function page() {
                     <li> <GrStatusGoodSmall className='bullet'/> If you or your group are interested in volunteer opportunities at Passionate Center & Homes, please contact us.</li>
                 </ul>
             </div>
-            <img src='../images/image1.jpg' alt='image1'/>
+            <img src='../images/Volunteer.jpg' alt='Volunteer'/>
                  
         </div>
 
         <div className='details-1 flex-reverse'>
-            <img src='../images/image2.jpg' alt='image2' className='margintop'/>
+            <img src='../images/Work.jpg' alt='Work' className='margintop'/>
 
             <div className='heading'>
                 <p className='first-text set-opacity'>CAREERS</p>
@@ -76,7 +76,7 @@ function page() {
                     <button className='careers'>YouTube</button>
                 </Link>
             </div>
-            <img src='../images/image3.jpg' alt='image3'/>
+            <img src='../images/Learn.jpg' alt='Learn'/>
         </div>
     </div>
   )

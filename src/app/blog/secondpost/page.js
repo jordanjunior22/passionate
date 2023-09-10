@@ -8,7 +8,7 @@ function page() {
 
         <div className='post-container'>
             <div className='image-container'>
-                <img src='../images/blog2.jpg' alt='images'/>
+                <img src='../images/Blog.jpg' alt='Blog'/>
             </div>
             <p className='description'><h4>There are thousands of mental health bloggers out there,
               but these top 100 mental health blogs are particularly powerful sources of insight, wisdom, and support. 
@@ -35,7 +35,7 @@ function page() {
             </p>
             <p className='description'>
                 <h4>3.&#41; <a href="https://clearbehavioralhealth.com/about-clear/our-blog/" target="_blank" rel="noopener noreferrer">Clear Recovery Center</a></h4>
-                Clear Recovery Center is Neuro Wellness Spa’s sister program that specializes in dual diagnosis mental health and substance abuse treatment. 
+                Clear Recovery Center is Neuro Wellness Spa&apos;s sister program that specializes in dual diagnosis mental health and substance abuse treatment. 
                 Their blog is written by the same people that write our blog and often features interviews with therapists, psychiatrists, and other mental health professionals. 
                 If you are looking for a blog that addresses addiction as well as mental health, this is the blog for you.
             </p>

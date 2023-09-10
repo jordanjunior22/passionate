@@ -7,10 +7,10 @@ function page() {
   return (
     <div className='add-padding'>
         <div className='residencial flex-reverse'>    
-            <img src='../images/image1.jpg' alt='image1' className='margintop'/>
+            <img src='../images/Residential.jpg' alt='Residential' className='margintop'/>
             <div className='heading'>
                 <p className='first-text set-opacity'>STAY WITH US</p>
-                <h2 className='h2-tags'>Residencial Support Programs</h2>
+                <h2 className='h2-tags'>Residential Support Programs</h2>
                 <p className='set-opacity'>Experience the difference with Passionate Center & Homes communal environment.</p>
             </div> 
         </div>
