@@ -40,7 +40,7 @@ function Nav() {
             <p className='animate-text'> <MdEmail /> pchhservicesllc@gmail.com</p>
         </div>
         <div className='bottom-navbar blurred-navbar'>
-          <Link href='/'><img src='../images/logo.png' alt="logo" className='logo'/></Link>
+          <Link href='/'><img src='./images/logo.png' alt="logo" className='logo'/></Link>
 
             <ul className='bottom-navbar-links'>
                 <li><Link href="/" className='links'>Home</Link></li>
@@ -59,7 +59,7 @@ function Nav() {
                     </ul>
                 </li>
                 
-                <li><Link href='/#contact-id' className='links'>Contact</Link></li>
+                <li><Link href='/contact' className='links'>Contact</Link></li>
                 <li><Link href='/donate' className='links donate'>Donate</Link></li>
                 
             </ul>
@@ -87,7 +87,7 @@ function Nav() {
                     </ul>
                 </li>  
        
-                <li><Link href='/#contact-id' className='links' onClick={() => setNavbarOpen(false)}>Contact</Link></li>
+                <li><Link href='/contact' className='links' onClick={() => setNavbarOpen(false)}>Contact</Link></li>
                 <li><Link href='/donate' className='links donate' onClick={() => setNavbarOpen(false)}>Donate</Link></li>
                 
         </ul>

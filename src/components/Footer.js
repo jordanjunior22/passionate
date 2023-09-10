@@ -53,10 +53,10 @@ function Footer() {
                 <div className='footer-container-top-items'>
                     <h3>Our Services</h3>
                     <Link  href='/' className='Link'>Home</Link>
-                    <Link  href='/#about-id' className='Link'>About</Link>
+                    <Link  href='/about' className='Link'>About</Link>
                     <Link  href='/#programs-id' className='Link'>Programs</Link>
                     <Link  href='/getinvlove' className='Link'>Get Involve</Link>
-                    <Link  href='/#contact-id' className='Link'>Contact</Link>
+                    <Link  href='/contact' className='Link'>Contact</Link>
                     <Link  href='/donate' className='Link'>Donate</Link>
                 </div>
 
