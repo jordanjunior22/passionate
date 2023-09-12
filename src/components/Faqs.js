@@ -198,7 +198,7 @@ function Faqs() {
         .dropdown-button{
           text-align:center;
           background-color:#f8f8f8;
-          width:100%;
+          width:70%;
           
         }
         .align{
@@ -221,7 +221,7 @@ function Faqs() {
           border: 1px solid #ddd;
           color:#76C63E;
           z-index: 1;
-          width:700px;
+          width:70%;
 
           
         }
