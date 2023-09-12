@@ -5,13 +5,13 @@ import { MdArrowDropDown } from 'react-icons/md';
 function Faqs() {
   const initialFaqData = [
     {
-      question: "Can I use the phone? Can I bring my cell phone?",
-      answer: "Yes. Each house has a program phone...",
+      question: "What Are My Rights, As a Resident?",
+      answer: "At Passionate Center & Homes Healthcare Services, IT IS YOUR RIGHT,",
       isOpen: false
     },
     {
-      question: "Another question?",
-      answer: "Answer to another question.",
+      question: "Can I use the phone? Can I bring my cell phone?",
+      answer: "Yes. Each house has 2 program phones (A staff phone & a client phone)",
       isOpen: false
     },
     // ...more FAQ items...
