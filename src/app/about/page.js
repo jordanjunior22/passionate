@@ -20,9 +20,10 @@ function page() {
 
         <div className='details'>
             <h2 className='h2-tags'>Our Mission</h2>
-            <p className='set-opacity'>Our private, rural-like setting provides an optimal environment for healthy independent 
-                living in our charming residential group homes. Along with support from skilled and caring behavioral 
-                health coaches,each resident is offered a personalized plan to meet their individual needs and goals.</p>
+            <p className='set-opacity'>Our private, city setting provides an optimal environment 
+              for healthy independent living in our vibrant residential group homes. 
+              Along with support from skilled and caring behavioral health recovery support specialist, 
+              each resident is offered a personalized plan to meet their individual needs and goals.</p>
         </div>
 
     </div>
