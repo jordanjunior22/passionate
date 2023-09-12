@@ -39,7 +39,7 @@ function page() {
             </div>
             <div className='flex-column'>
               <img src='../images/Closet.jpg' alt='Closet'/>
-              <h4 className='text-center'>Bedroom III</h4>
+              <h4 className='text-center'>Closet</h4>
               <p className='add-opacity text-center'>&quot;A tranquil retreat, cocooned in comfort, where dreams take flight and the spirit finds solace.&quot;</p>
             </div>
             <div className='flex-column'>
