@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client"
 import React from 'react'
 import './blog.css'
@@ -11,7 +12,7 @@ function page() {
 
         <div className='blog-container border-gradient'>
           <div className='image-container'> 
-            <img src='https://jordanjunior22.github.io/passionate/images/pots.jpg' alt='blogimage'/>
+            <img src='../images/About.jpg' alt='blogimage'/>
           </div>
 
           <div className='blog-des'>
@@ -29,7 +30,7 @@ function page() {
 
         <div className='blog-container border-gradient border-gradient-purple'>
           <div className='image-container'> 
-            <img src='https://jordanjunior22.github.io/passionate/images/blog2.jpg' alt='blogimage'/>
+            <img src='../images/Blog.jpg' alt='blogimage'/>
           </div>
 
           <div className='blog-des'>
