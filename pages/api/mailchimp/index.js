@@ -17,7 +17,7 @@ export default async function handler(req, res) {
   // Define a function to subscribe the email address to the Mailchimp list
   const run = async () => {
     try {
-      const response = await client.lists.addListMember("50063a05c1", {
+      const response = await client.lists.addListMember("89132697c4", {
         email_address: email,
         status: "subscribed",
       });
