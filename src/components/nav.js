@@ -40,7 +40,7 @@ function Nav() {
             <p className='animate-text'> <MdEmail /> pchhservicesllc@gmail.com</p>
         </div>
         <div className='bottom-navbar blurred-navbar'>
-          <Link href='/'><img src='./images/logo.png' alt="logo" className='logo'/></Link>
+          <Link href='/'><img src='https://github.com/jordanjunior22/passionate/blob/master/public/images/logo.png?raw=true' alt="logo" className='logo'/></Link>
 
             <ul className='bottom-navbar-links'>
                 <li><Link href="/" className='links'>Home</Link></li>
