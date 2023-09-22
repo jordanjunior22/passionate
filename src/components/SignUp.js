@@ -12,7 +12,7 @@ function SignUp() {
   const handleSubmit = async (event) => {
     event.preventDefault();
 
-    console.log('Email before fetch:', email);
+    //console.log('Email before fetch:', email);
 
     try {
       const response = await fetch('/api/mailchimp', {
@@ -24,12 +24,14 @@ function SignUp() {
       });
 
       const data = await response.json();
-      console.log(data); // Log the response from the API
+      //console.log(data); // Log the response from the API
 
       // Optionally, you can show a success message to the user
       if (response.ok) {
         alert('Subscribed successfully!');
-      } else {
+      } else if (data.message === 'Already Subscribed') { 
+        alert('Email is already subscribed.'); 
+        else {
         alert('An error occurred. Please try again.');
       }
     } catch (error) {
