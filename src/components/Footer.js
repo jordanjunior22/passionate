@@ -47,7 +47,7 @@ function Footer() {
                     <p>+1 (571) 265 - 5198</p>
                     <p>pchhservicesllc@gmail.com</p>
                     <p>5721 Eliot Ct, Unit 173</p>
-                    <p>Alexandria, VIrginia 22311</p>
+                    <p>Alexandria, Virginia 22311</p>
                 </div>
 
                 <div className='footer-container-top-items'>
