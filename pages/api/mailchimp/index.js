@@ -35,7 +35,10 @@ export default async function handler(req, res) {
   // Send the appropriate response to the client based on the API call result
   if (apiCallSuccess) {
     res.status(200).json({ message: "Email subscribed successfully" });
-  } else {
+  } else if(!apiCallSuccess){
+    res.status(400).json({ message: "Already Subscribed" });
+  } 
+  else {
     res.status(500).json({ error: "An error occurred while subscribing the email" });
   }
 }
