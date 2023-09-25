@@ -31,6 +31,7 @@ function SignUp() {
         alert('Subscribed successfully!');
       } else if (data.message === 'Already Subscribed') { 
         alert('Email is already subscribed.'); 
+      }
         else {
         alert('An error occurred. Please try again.');
       }
