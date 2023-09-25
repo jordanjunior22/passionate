@@ -40,7 +40,7 @@ function Nav() {
             <p className='animate-text'> <MdEmail /> pchhservicesllc@gmail.com</p>
         </div>
         <div className='bottom-navbar blurred-navbar'>
-          <Link href='/'><img src='https://github.com/jordanjunior22/passionate/blob/master/public/images/logo.png?raw=true' alt="logo" className='logo'/></Link>
+          <Link href='/'><img src='./images/logo.png' alt="logo" className='logo'/></Link>
 
             <ul className='bottom-navbar-links'>
                 <li><Link href="/" className='links'>Home</Link></li>
@@ -71,15 +71,15 @@ function Nav() {
 
        
         <ul ref={ref} className={`side-nav${navbarOpen ? ' show-menu' : ''}`}>
-                <li><Link href="/" className='links' onClick={() => setNavbarOpen(false)}>Home</Link></li>
-                <li className='links with-submenu'><Link href='/about' className='links'>About</Link>
+                <li><Link href="/" className='no-margin-links' onClick={() => setNavbarOpen(false)}>Home</Link></li>
+                <li className='no-margin-links with-submenu'><Link href='/about' className='no-margin-links'>About</Link>
                     <ul className='submenu'>
                         <li><Link href="/about/gallery" className='sub-links' onClick={() => setNavbarOpen(false)}>Gallery</Link></li>
                         <li><Link href="/about/team" className='sub-links' onClick={() => setNavbarOpen(false)}>Meet The Team</Link></li>
                         <li><Link href="/about/faqs" className='sub-links' onClick={() => setNavbarOpen(false)}>FAQs</Link></li>
                     </ul>
                 </li>
-                <li className='links with-submenu'><Link href='/#programs-id' className='links' onClick={() => setNavbarOpen(false)}>Programs</Link> 
+                <li className='no-margin-links with-submenu'><Link href='/#programs-id' className='no-margin-links' onClick={() => setNavbarOpen(false)}>Programs</Link> 
                     <ul className='submenu'>
                         <li><Link href="/programs/residencial" className='sub-links' onClick={() => setNavbarOpen(false)}>Residencial Support Programs</Link></li>
                         <li><Link href="/programs/community" className='sub-links' onClick={() => setNavbarOpen(false)}>Community Support</Link></li>
@@ -87,8 +87,8 @@ function Nav() {
                     </ul>
                 </li>  
        
-                <li><Link href='/contact' className='links' onClick={() => setNavbarOpen(false)}>Contact</Link></li>
-                <li><Link href='/donate' className='links donate' onClick={() => setNavbarOpen(false)}>Donate</Link></li>
+                <li><Link href='/contact' className='no-margin-links' onClick={() => setNavbarOpen(false)}>Contact</Link></li>
+                <li><Link href='/donate' className='no-margin-links donate' onClick={() => setNavbarOpen(false)}>Donate</Link></li>
                 
         </ul>
        
