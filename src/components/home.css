@@ -30,7 +30,7 @@
   .header-info p{
       font-size: 0.9rem;
       color: white;
-      opacity: 0.5;
+      opacity: 0.8;
   }
   .header-info p, .header-info h2, .header-info h3{
       padding-top: 0.2em;
