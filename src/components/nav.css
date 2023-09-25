@@ -67,6 +67,11 @@
     color: black;
     transform: 0.5s ease-in-out;
  }
+ .no-margin-links{
+  text-decoration: none;
+  color: black;
+  transform: 0.5s ease-in-out;
+}
  .sub-links{
   text-decoration: none;
   color: black;
@@ -126,7 +131,7 @@
   width: 260px;
 }
 
-@media (max-width: 574px){
+@media (max-width: 652px){
   .with-submenu:hover .submenu {
     width: 90px;
   }
