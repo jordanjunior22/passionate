@@ -33,12 +33,17 @@
     border-bottom: 1px solid rgb(231, 231, 231);
 }
 @media (max-width: 425px) {
+
+
+}
+
+@media (max-width: 768px){
+    .social-media-icons button{
+        margin-top: 1em;
+     }
     .social-media-icons{
         flex-direction: column;
         justify-content:center;
         align-items: center;
-    }
-    .social-media-icons button{
-       margin-top: 1em;
     }
 }
