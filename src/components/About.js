@@ -90,7 +90,27 @@ function About() {
                 </div>
               </div>            
            </Bounce>
-                  
+             
+            <Bounce direction='left' delay={30}>
+              <div className='how-info '> 
+                <div className='how-left'>
+                  <ImHome className='how-images'/>
+                  <h5>Residential Programs</h5>
+                </div>
+                <div className='how-right'>
+                <p id='apply-opacity'>
+                Get involve with Passionate Center & Homes Healthcare Services's Vision and help support our Mission and Purpose 
+                There are multiple ways you  
+                or your company, civic group, or religious organization can assist the individuals Passionate Center & Homes serves. 
+                we appreciate your help and interest.
+                </p>
+                  <Link href='/getinvolve'>
+                    <button className='read-more' >Read More</button>
+                  </Link>                
+                </div>
+              </div>
+              </Bounce>
+     
           </div>
         </div>
       </Reveal>
