@@ -94,8 +94,8 @@ function About() {
             <Bounce direction='left' delay={30}>
               <div className='how-info '> 
                 <div className='how-left'>
-                  <ImHome className='how-images'/>
-                  <h5>Residential Programs</h5>
+                  <Gift className='how-images'/>
+                  <h5>Get Involve</h5>
                 </div>
                 <div className='how-right'>
                 <p id='apply-opacity'>
