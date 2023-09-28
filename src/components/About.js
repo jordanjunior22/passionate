@@ -3,7 +3,7 @@
 import React from 'react'
 import './About.css'
 import {TfiWrite} from 'react-icons/tfi'
-import {ImHome} from 'react-icons/im'
+import {BiSolidDonateHeart} from 'react-icons/bi'
 import {PiUsersThreeFill} from 'react-icons/pi'
 import Link from 'next/link'
 import Reveal from '@/components/ScrollReveal'
@@ -94,7 +94,7 @@ function About() {
             <Bounce direction='left' delay={30}>
               <div className='how-info '> 
                 <div className='how-left'>
-                  <Gift className='how-images'/>
+                  <BiSolidDonateHeart className='how-images'/>
                   <h5>Get Involve</h5>
                 </div>
                 <div className='how-right'>
