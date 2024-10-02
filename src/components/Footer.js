@@ -86,7 +86,7 @@ function Footer() {
             </div>
 
             <div className='footer-container-bottom'>
-                <p>Copyright @2023 All Rights Reserved | <span style={{color:'#0076BA'}}>Designed By Jordan Junior</span></p>
+                <p>Copyright @2023 All Rights Reserved | <span style={{color:'#0076BA'}}>Made With love <Link href="https://www.insperax.com">@insperaX</Link></span></p>
             </div>
 
         </div>
